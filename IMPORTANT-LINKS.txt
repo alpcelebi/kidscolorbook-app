@@ -1,0 +1,136 @@
+# KidsColorBook: Paint & Draw - Önemli Linkler
+# Son Güncelleme: 9 Ocak 2026
+
+====================================================
+                    WEB SİTESİ & GITHUB
+====================================================
+
+🌐 Web Sitesi (Ana Sayfa):
+   https://alpcelebi.github.io/kidscolorbook-app/
+
+🔒 Gizlilik Politikası:
+   https://alpcelebi.github.io/kidscolorbook-app/privacy-policy.html
+
+📂 GitHub Repository:
+   https://github.com/alpcelebi/kidscolorbook-app
+
+
+====================================================
+                  GOOGLE PLAY CONSOLE
+====================================================
+
+📱 Google Play Console:
+   https://play.google.com/console
+
+📦 Uygulama Paketi (Package ID):
+   com.kidscolorbook.app
+
+🔗 Google Play Store Linki (yayınlandıktan sonra):
+   https://play.google.com/store/apps/details?id=com.kidscolorbook.app
+
+
+====================================================
+                    ADMOB REKLAMLAR
+====================================================
+
+📊 AdMob Dashboard:
+   https://admob.google.com
+
+🆔 Test App ID (Android):
+   ca-app-pub-3940256099942544~3347511713
+
+🆔 Test App ID (iOS):
+   ca-app-pub-3940256099942544~1458002511
+
+📌 Test Banner Ad Unit ID:
+   ca-app-pub-3940256099942544/6300978111
+
+📌 Test Interstitial Ad Unit ID:
+   ca-app-pub-3940256099942544/1033173712
+
+⚠️ NOT: Yukarıdaki ID'ler Google'ın test ID'leridir.
+   Üretim için kendi AdMob hesabınızdan gerçek ID'ler alın.
+
+
+====================================================
+                    UYGULAMA BİLGİLERİ
+====================================================
+
+📛 Uygulama Adı:
+   KidsColorBook: Paint & Draw
+
+📝 Kısa Açıklama (80 karakter):
+   Çocuklar için eğlenceli boyama kitabı! 200+ boyama sayfası ve serbest çizim.
+
+🏷️ Kategori:
+   Games > Educational
+
+👶 Hedef Yaş Grubu:
+   2-8 yaş
+
+🌍 Desteklenen Diller:
+   - Türkçe (tr)
+   - İngilizce (en)
+   - Almanca (de)
+   - Fransızca (fr)
+   - İspanyolca (es)
+   - Rusça (ru)
+
+📐 Mimari:
+   - armeabi-v7a
+   - arm64-v8a
+
+📏 Versiyon:
+   2.0.0
+
+
+====================================================
+                    DOSYA KONUMLARI
+====================================================
+
+📁 APK Dosyası:
+   android/app/build/outputs/apk/release/app-release.apk
+
+🖼️ Google Play Assets:
+   assets/google-play-assets/
+
+🌐 Web Sitesi Dosyaları:
+   docs/
+
+⚙️ Build Hataları ve Çözümleri:
+   build-errors-and-fixes.txt
+
+🎨 Uygulama İkonu:
+   assets/icon.png
+
+📸 Ekran Görüntüleri:
+   docs/screenshots/
+
+
+====================================================
+                    İLETİŞİM BİLGİLERİ
+====================================================
+
+📧 E-posta:
+   contact@kidscolorbook.app
+
+🏢 Geliştirici:
+   [Geliştirici adınızı buraya ekleyin]
+
+
+====================================================
+               HIZLI REFERANS KOMUTLARI
+====================================================
+
+# APK Build:
+cd android
+$env:NODE_ENV="production"
+.\gradlew.bat assembleRelease --no-daemon -x lint -x lintVitalAnalyzeRelease
+
+# GitHub Push:
+git add .
+git commit -m "Değişiklik açıklaması"
+git push origin master
+
+# Expo Prebuild:
+npx expo prebuild --platform android --clean
