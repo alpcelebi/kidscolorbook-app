@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Cute monkey - professional coloring page -->
+  
+  <!-- Body -->
+  <ellipse cx="200" cy="280" rx="70" ry="60"/>
+  
+  <!-- Head -->
+  <circle cx="200" cy="150" r="70"/>
+  
+  <!-- Face (lighter area) -->
+  <ellipse cx="200" cy="165" rx="50" ry="45"/>
+  
+  <!-- Left ear -->
+  <circle cx="125" cy="130" r="30"/>
+  <circle cx="125" cy="130" r="18"/>
+  
+  <!-- Right ear -->
+  <circle cx="275" cy="130" r="30"/>
+  <circle cx="275" cy="130" r="18"/>
+  
+  <!-- Left eye -->
+  <circle cx="175" cy="145" r="18"/>
+  <circle cx="175" cy="148" r="10"/>
+  <circle cx="172" cy="144" r="4"/>
+  
+  <!-- Right eye -->
+  <circle cx="225" cy="145" r="18"/>
+  <circle cx="225" cy="148" r="10"/>
+  <circle cx="222" cy="144" r="4"/>
+  
+  <!-- Eyebrows -->
+  <path d="M155 125 Q175 118 195 128"/>
+  <path d="M245 125 Q225 118 205 128"/>
+  
+  <!-- Nose -->
+  <ellipse cx="200" cy="175" rx="20" ry="12"/>
+  <circle cx="190" cy="175" r="5"/>
+  <circle cx="210" cy="175" r="5"/>
+  
+  <!-- Mouth -->
+  <path d="M200 187 L200 200"/>
+  <path d="M200 200 Q185 215 175 205"/>
+  <path d="M200 200 Q215 215 225 205"/>
+  
+  <!-- Smile -->
+  <path d="M175 195 Q200 220 225 195"/>
+  
+  <!-- Belly patch -->
+  <ellipse cx="200" cy="290" rx="45" ry="40"/>
+  
+  <!-- Left arm -->
+  <path d="M130 260 Q90 280 70 320 Q65 350 90 360"/>
+  <ellipse cx="90" cy="360" rx="25" ry="18"/>
+  <!-- Hand details -->
+  <path d="M75 355 L70 370"/>
+  <path d="M85 360 L80 378"/>
+  <path d="M95 360 L95 378"/>
+  <path d="M105 355 L110 370"/>
+  
+  <!-- Right arm -->
+  <path d="M270 260 Q310 280 330 320 Q335 350 310 360"/>
+  <ellipse cx="310" cy="360" rx="25" ry="18"/>
+  <!-- Hand details -->
+  <path d="M295 355 L290 370"/>
+  <path d="M305 360 L300 378"/>
+  <path d="M315 360 L315 378"/>
+  <path d="M325 355 L330 370"/>
+  
+  <!-- Left leg -->
+  <path d="M160 330 L150 370"/>
+  <ellipse cx="150" cy="378" rx="22" ry="15"/>
+  
+  <!-- Right leg -->
+  <path d="M240 330 L250 370"/>
+  <ellipse cx="250" cy="378" rx="22" ry="15"/>
+  
+  <!-- Tail -->
+  <path d="M270 290 Q320 280 340 250 Q360 210 340 180 Q320 160 340 140"/>
+  
+  <!-- Banana -->
+  <path d="M50 100 Q30 120 40 150 Q55 180 90 180 Q85 160 80 140 Q75 120 50 100"/>
+  <path d="M55 110 Q45 130 50 150 Q60 170 80 170"/>
+  <path d="M50 100 L40 90"/>
+  
+  <!-- Tree branch -->
+  <path d="M30 200 Q100 190 150 220"/>
+  <path d="M30 210 Q100 200 145 230"/>
+</svg>

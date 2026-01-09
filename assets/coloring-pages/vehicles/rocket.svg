@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Space rocket - professional coloring page -->
+  
+  <!-- Rocket body -->
+  <path d="M200 30 Q240 80 240 150 L240 280 L160 280 L160 150 Q160 80 200 30"/>
+  
+  <!-- Nose cone detail lines -->
+  <path d="M180 70 Q200 50 220 70"/>
+  <path d="M170 100 Q200 75 230 100"/>
+  
+  <!-- Window (porthole) -->
+  <circle cx="200" cy="150" r="30"/>
+  <circle cx="200" cy="150" r="22"/>
+  <!-- Window shine -->
+  <path d="M185 140 Q190 135 195 140"/>
+  
+  <!-- Body stripes -->
+  <line x1="160" y1="200" x2="240" y2="200"/>
+  <line x1="160" y1="220" x2="240" y2="220"/>
+  <line x1="160" y1="240" x2="240" y2="240"/>
+  <line x1="160" y1="260" x2="240" y2="260"/>
+  
+  <!-- Left fin -->
+  <path d="M160 220 L100 300 L100 330 L140 310 L160 280"/>
+  <!-- Fin detail -->
+  <line x1="120" y1="290" x2="145" y2="260"/>
+  
+  <!-- Right fin -->
+  <path d="M240 220 L300 300 L300 330 L260 310 L240 280"/>
+  <!-- Fin detail -->
+  <line x1="280" y1="290" x2="255" y2="260"/>
+  
+  <!-- Center fin (back) -->
+  <path d="M190 250 L190 320 L200 340 L210 320 L210 250"/>
+  
+  <!-- Rocket base -->
+  <path d="M160 280 L155 300 L165 300 L165 310 L235 310 L235 300 L245 300 L240 280"/>
+  
+  <!-- Flames -->
+  <path d="M175 310 Q165 350 180 380 Q190 350 195 380 Q200 340 205 380 Q210 350 220 380 Q235 350 225 310"/>
+  <path d="M180 320 Q175 340 185 360"/>
+  <path d="M220 320 Q225 340 215 360"/>
+  <path d="M200 315 L200 365"/>
+  
+  <!-- Small flames -->
+  <path d="M170 310 Q165 325 175 340"/>
+  <path d="M230 310 Q235 325 225 340"/>
+  
+  <!-- Stars around rocket -->
+  <path d="M60 100 L65 115 L80 115 L68 125 L73 140 L60 130 L47 140 L52 125 L40 115 L55 115 Z"/>
+  <path d="M340 150 L345 165 L360 165 L348 175 L353 190 L340 180 L327 190 L332 175 L320 165 L335 165 Z"/>
+  <path d="M80 250 L83 260 L93 260 L85 267 L88 277 L80 270 L72 277 L75 267 L67 260 L77 260 Z"/>
+  <path d="M320 80 L323 90 L333 90 L325 97 L328 107 L320 100 L312 107 L315 97 L307 90 L317 90 Z"/>
+  
+  <!-- Planet -->
+  <circle cx="330" cy="280" r="25"/>
+  <ellipse cx="330" cy="280" rx="35" ry="8"/>
+  
+  <!-- Small stars -->
+  <circle cx="50" cy="180" r="3"/>
+  <circle cx="350" cy="50" r="3"/>
+  <circle cx="70" cy="320" r="3"/>
+  <circle cx="280" cy="350" r="3"/>
+</svg>

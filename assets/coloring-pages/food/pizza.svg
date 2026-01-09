@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Delicious pizza slice - professional coloring page -->
+  
+  <!-- Pizza slice outline -->
+  <path d="M200 50 L50 350 Q200 380 350 350 Z"/>
+  
+  <!-- Crust -->
+  <path d="M50 350 Q200 390 350 350 Q200 360 50 350"/>
+  <!-- Crust texture -->
+  <path d="M80 355 Q90 365 100 355"/>
+  <path d="M130 360 Q140 372 150 360"/>
+  <path d="M180 362 Q195 375 210 362"/>
+  <path d="M240 360 Q250 372 260 360"/>
+  <path d="M290 355 Q300 365 310 355"/>
+  
+  <!-- Cheese drips -->
+  <path d="M60 340 Q55 360 70 350"/>
+  <path d="M340 340 Q345 360 330 350"/>
+  
+  <!-- Pepperoni slices -->
+  <ellipse cx="150" cy="180" rx="25" ry="22"/>
+  <ellipse cx="150" cy="180" rx="18" ry="15"/>
+  
+  <ellipse cx="250" cy="200" rx="25" ry="22"/>
+  <ellipse cx="250" cy="200" rx="18" ry="15"/>
+  
+  <ellipse cx="180" cy="280" rx="25" ry="22"/>
+  <ellipse cx="180" cy="280" rx="18" ry="15"/>
+  
+  <ellipse cx="280" cy="300" rx="22" ry="20"/>
+  <ellipse cx="280" cy="300" rx="15" ry="13"/>
+  
+  <ellipse cx="100" cy="290" rx="22" ry="20"/>
+  <ellipse cx="100" cy="290" rx="15" ry="13"/>
+  
+  <ellipse cx="200" cy="130" rx="20" ry="18"/>
+  <ellipse cx="200" cy="130" rx="14" ry="12"/>
+  
+  <!-- Mushroom slices -->
+  <path d="M120 220 Q130 200 140 220 L135 235 L125 235 Z"/>
+  <line x1="130" y1="220" x2="130" y2="232"/>
+  
+  <path d="M210 230 Q220 210 230 230 L225 245 L215 245 Z"/>
+  <line x1="220" y1="230" x2="220" y2="242"/>
+  
+  <path d="M300 250 Q310 230 320 250 L315 265 L305 265 Z"/>
+  <line x1="310" y1="250" x2="310" y2="262"/>
+  
+  <!-- Green peppers -->
+  <path d="M160 320 Q170 310 180 315 Q175 330 165 330 Q155 328 160 320"/>
+  <path d="M240 330 Q250 320 260 325 Q255 340 245 340 Q235 338 240 330"/>
+  
+  <!-- Olives -->
+  <circle cx="140" cy="150" r="12"/>
+  <circle cx="140" cy="150" r="5"/>
+  
+  <circle cx="220" cy="170" r="12"/>
+  <circle cx="220" cy="170" r="5"/>
+  
+  <circle cx="130" cy="260" r="10"/>
+  <circle cx="130" cy="260" r="4"/>
+  
+  <!-- Cheese texture lines -->
+  <path d="M180 100 Q185 120 175 140"/>
+  <path d="M220 110 Q225 130 215 150"/>
+  <path d="M100 250 Q110 270 95 290"/>
+  <path d="M310 270 Q320 290 305 310"/>
+  
+  <!-- Steam lines -->
+  <path d="M180 30 Q175 15 185 5"/>
+  <path d="M200 35 Q200 20 210 10"/>
+  <path d="M220 30 Q225 15 215 5"/>
+</svg>

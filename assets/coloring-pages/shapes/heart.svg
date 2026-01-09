@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Decorative heart - professional coloring page -->
+  
+  <!-- Main heart shape -->
+  <path d="M200 350 Q100 280 60 200 Q30 120 100 80 Q160 50 200 120 Q240 50 300 80 Q370 120 340 200 Q300 280 200 350"/>
+  
+  <!-- Inner heart -->
+  <path d="M200 310 Q120 250 90 190 Q70 130 120 100 Q160 75 200 130 Q240 75 280 100 Q330 130 310 190 Q280 250 200 310"/>
+  
+  <!-- Innermost heart -->
+  <path d="M200 260 Q145 215 125 175 Q110 140 145 120 Q175 100 200 145 Q225 100 255 120 Q290 140 275 175 Q255 215 200 260"/>
+  
+  <!-- Decorative swirls inside -->
+  <path d="M160 160 Q150 150 160 140 Q175 135 180 150"/>
+  <path d="M240 160 Q250 150 240 140 Q225 135 220 150"/>
+  
+  <!-- Shine effect -->
+  <path d="M130 130 Q140 120 150 125"/>
+  <path d="M140 145 Q150 140 155 145"/>
+  
+  <!-- Decorative elements around heart -->
+  <!-- Top decoration -->
+  <path d="M200 60 L200 40"/>
+  <circle cx="200" cy="35" r="8"/>
+  
+  <!-- Small hearts around -->
+  <path d="M80 60 Q70 50 80 45 Q90 42 95 50 Q100 42 110 45 Q120 50 110 60 Q95 75 80 60"/>
+  
+  <path d="M320 60 Q310 50 320 45 Q330 42 335 50 Q340 42 350 45 Q360 50 350 60 Q335 75 320 60"/>
+  
+  <path d="M50 250 Q45 242 50 238 Q55 235 58 240 Q62 235 68 238 Q73 242 68 250 Q58 260 50 250"/>
+  
+  <path d="M350 250 Q345 242 350 238 Q355 235 358 240 Q362 235 368 238 Q373 242 368 250 Q358 260 350 250"/>
+  
+  <!-- Stars around -->
+  <path d="M40 150 L43 160 L53 160 L45 167 L48 177 L40 170 L32 177 L35 167 L27 160 L37 160 Z"/>
+  <path d="M360 150 L363 160 L373 160 L365 167 L368 177 L360 170 L352 177 L355 167 L347 160 L357 160 Z"/>
+  
+  <!-- Sparkles -->
+  <circle cx="100" cy="350" r="5"/>
+  <circle cx="300" cy="350" r="5"/>
+  <circle cx="60" cy="300" r="4"/>
+  <circle cx="340" cy="300" r="4"/>
+  
+  <!-- Ribbon/banner below -->
+  <path d="M130 370 Q140 355 200 360 Q260 355 270 370"/>
+  <path d="M100 370 L130 370 L125 385 L135 375"/>
+  <path d="M300 370 L270 370 L275 385 L265 375"/>
+  
+  <!-- Small decorative dots -->
+  <circle cx="175" cy="200" r="4"/>
+  <circle cx="225" cy="200" r="4"/>
+  <circle cx="200" cy="220" r="4"/>
+  
+  <!-- Curved lines decoration -->
+  <path d="M150 300 Q170 310 190 300"/>
+  <path d="M210 300 Q230 310 250 300"/>
+  
+  <!-- Love arrows -->
+  <path d="M30 100 L80 130"/>
+  <path d="M80 130 L75 120"/>
+  <path d="M80 130 L70 130"/>
+  <path d="M30 100 L35 115"/>
+  <path d="M30 100 L45 100"/>
+  
+  <path d="M370 100 L320 130"/>
+  <path d="M320 130 L325 120"/>
+  <path d="M320 130 L330 130"/>
+  <path d="M370 100 L365 115"/>
+  <path d="M370 100 L355 100"/>
+</svg>

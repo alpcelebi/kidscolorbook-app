@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Ice cream cone with scoops - professional coloring page -->
+  
+  <!-- Cone -->
+  <path d="M140 220 L200 380 L260 220"/>
+  <!-- Cone pattern (waffle) -->
+  <line x1="150" y1="240" x2="250" y2="240"/>
+  <line x1="155" y1="260" x2="245" y2="260"/>
+  <line x1="162" y1="280" x2="238" y2="280"/>
+  <line x1="170" y1="300" x2="230" y2="300"/>
+  <line x1="177" y1="320" x2="223" y2="320"/>
+  <line x1="185" y1="340" x2="215" y2="340"/>
+  <line x1="192" y1="360" x2="208" y2="360"/>
+  
+  <!-- Diagonal lines -->
+  <line x1="145" y1="225" x2="190" y2="370"/>
+  <line x1="165" y1="225" x2="195" y2="350"/>
+  <line x1="185" y1="220" x2="200" y2="330"/>
+  <line x1="215" y1="220" x2="200" y2="330"/>
+  <line x1="235" y1="225" x2="205" y2="350"/>
+  <line x1="255" y1="225" x2="210" y2="370"/>
+  
+  <!-- Bottom scoop (vanilla) -->
+  <circle cx="200" cy="180" r="65"/>
+  <!-- Texture -->
+  <path d="M155 165 Q165 175 155 185"/>
+  <path d="M245 165 Q235 175 245 185"/>
+  
+  <!-- Middle scoop (strawberry) -->
+  <circle cx="200" cy="110" r="55"/>
+  <!-- Strawberry texture dots -->
+  <circle cx="175" cy="100" r="4"/>
+  <circle cx="195" cy="115" r="4"/>
+  <circle cx="215" cy="95" r="4"/>
+  <circle cx="230" cy="115" r="4"/>
+  <circle cx="185" cy="130" r="4"/>
+  <circle cx="210" cy="130" r="4"/>
+  
+  <!-- Top scoop (chocolate) -->
+  <circle cx="200" cy="55" r="45"/>
+  <!-- Chocolate swirl -->
+  <path d="M175 45 Q200 35 225 45 Q210 55 225 65"/>
+  <path d="M180 65 Q195 55 210 65"/>
+  
+  <!-- Cherry on top -->
+  <circle cx="200" cy="15" r="15"/>
+  <!-- Cherry shine -->
+  <circle cx="195" cy="10" r="4"/>
+  <!-- Stem -->
+  <path d="M200 5 Q210 -10 220 -5"/>
+  <!-- Leaf -->
+  <path d="M215 -8 Q225 -15 230 -5 Q220 -5 215 -8"/>
+  
+  <!-- Drips -->
+  <path d="M145 200 Q140 220 150 225"/>
+  <path d="M255 200 Q260 220 250 225"/>
+  <path d="M165 175 Q158 195 168 200"/>
+  <path d="M235 175 Q242 195 232 200"/>
+  
+  <!-- Sprinkles on middle scoop -->
+  <line x1="160" y1="95" x2="168" y2="100"/>
+  <line x1="175" y1="85" x2="180" y2="92"/>
+  <line x1="220" y1="85" x2="225" y2="92"/>
+  <line x1="235" y1="100" x2="240" y2="108"/>
+  <line x1="170" y1="120" x2="178" y2="125"/>
+  <line x1="225" y1="125" x2="232" y2="118"/>
+  
+  <!-- Whipped cream swirl decoration -->
+  <path d="M160 145 Q175 135 190 145 Q200 140 210 145 Q225 135 240 145"/>
+</svg>

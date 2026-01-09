@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Professional Cute Dog Coloring Page -->
+  <g fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Head -->
+    <path d="M150 180c0-70 50-100 106-100 56 0 106 30 106 100 0 80-50 120-106 120-56 0-106-40-106-120z"/>
+    
+    <!-- Floppy Left Ear -->
+    <path d="M155 130c-30 10-60 60-50 100 5 20 30 20 40 0 10-20 20-60 10-100z"/>
+    
+    <!-- Floppy Right Ear -->
+    <path d="M357 130c30 10 60 60 50 100-5 20-30 20-40 0-10-20-20-60-10-100z"/>
+
+    <!-- Body -->
+    <path d="M190 290c-20 60-20 130-10 160h152c10-30 10-100-10-160"/>
+    
+    <!-- Front Left Leg -->
+    <path d="M210 450v-60c0-10-10-20-20-20"/>
+    
+    <!-- Front Right Leg -->
+    <path d="M302 450v-60c0-10 10-20 20-20"/>
+    
+    <!-- Back Paws Hints -->
+    <path d="M160 440c-10 0-20-10-20-20"/>
+    <path d="M352 440c10 0 20-10 20-20"/>
+    
+    <!-- Tail -->
+    <path d="M330 350c30-20 60-20 70 0 10 20-10 40-30 40"/>
+    
+    <!-- Eyes -->
+    <g fill="#000" stroke="none">
+        <ellipse cx="210" cy="180" rx="10" ry="15"/>
+        <ellipse cx="302" cy="180" rx="10" ry="15"/>
+    </g>
+    
+    <!-- Nose -->
+    <path d="M241 210h30c0 15-15 25-15 25s-15-10-15-25z" fill="#000" stroke="none"/>
+    
+    <!-- Tongue/Mouth -->
+    <path d="M256 235v15"/>
+    <path d="M240 250s16 10 32 0"/>
+    
+    <!-- Collar -->
+    <path d="M190 290h132" stroke-width="6"/>
+    <circle cx="256" cy="310" r="10" fill="#fff"/>
+  </g>
+</svg>

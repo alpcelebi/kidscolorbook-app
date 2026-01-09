@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Cute elephant - professional coloring page -->
+  
+  <!-- Body -->
+  <ellipse cx="200" cy="250" rx="120" ry="80"/>
+  
+  <!-- Head -->
+  <circle cx="200" cy="130" r="85"/>
+  
+  <!-- Left ear -->
+  <path d="M115 100 Q50 80 40 140 Q35 200 60 240 Q90 260 115 230 Q130 200 115 100"/>
+  <!-- Ear inner detail -->
+  <path d="M100 130 Q70 140 65 170 Q65 200 80 220"/>
+  
+  <!-- Right ear -->
+  <path d="M285 100 Q350 80 360 140 Q365 200 340 240 Q310 260 285 230 Q270 200 285 100"/>
+  <!-- Ear inner detail -->
+  <path d="M300 130 Q330 140 335 170 Q335 200 320 220"/>
+  
+  <!-- Left eye -->
+  <circle cx="165" cy="115" r="18"/>
+  <circle cx="165" cy="118" r="10"/>
+  <circle cx="161" cy="112" r="4"/>
+  
+  <!-- Right eye -->
+  <circle cx="235" cy="115" r="18"/>
+  <circle cx="235" cy="118" r="10"/>
+  <circle cx="231" cy="112" r="4"/>
+  
+  <!-- Eyebrows -->
+  <path d="M145 90 Q165 85 185 92"/>
+  <path d="M255 90 Q235 85 215 92"/>
+  
+  <!-- Trunk -->
+  <path d="M175 145 Q160 160 165 200 Q170 250 155 290 Q145 320 160 340 Q180 355 200 345"/>
+  <path d="M225 145 Q240 160 235 200 Q230 250 245 290 Q255 320 240 340 Q220 355 200 345"/>
+  <!-- Trunk lines -->
+  <path d="M168 180 Q200 175 232 180"/>
+  <path d="M165 210 Q200 205 235 210"/>
+  <path d="M162 240 Q200 235 238 240"/>
+  <path d="M158 270 Q200 265 242 270"/>
+  <path d="M155 300 Q200 295 245 300"/>
+  <!-- Trunk tip -->
+  <ellipse cx="200" cy="350" rx="25" ry="12"/>
+  
+  <!-- Tusks -->
+  <path d="M155 170 Q130 200 140 230 Q145 240 150 235"/>
+  <path d="M245 170 Q270 200 260 230 Q255 240 250 235"/>
+  
+  <!-- Front left leg -->
+  <path d="M130 290 L115 360 Q115 375 135 375 L160 375 Q175 375 175 360 L160 290"/>
+  <!-- Toenails -->
+  <path d="M120 370 L125 365"/>
+  <path d="M135 372 L138 366"/>
+  <path d="M150 372 L153 366"/>
+  <path d="M165 370 L168 365"/>
+  
+  <!-- Front right leg -->
+  <path d="M270 290 L285 360 Q285 375 265 375 L240 375 Q225 375 225 360 L240 290"/>
+  <!-- Toenails -->
+  <path d="M280 370 L275 365"/>
+  <path d="M265 372 L262 366"/>
+  <path d="M250 372 L247 366"/>
+  <path d="M235 370 L232 365"/>
+  
+  <!-- Back legs -->
+  <ellipse cx="100" cy="310" rx="25" ry="40"/>
+  <ellipse cx="300" cy="310" rx="25" ry="40"/>
+  
+  <!-- Tail -->
+  <path d="M320 250 Q350 260 360 290 Q365 310 355 330"/>
+  <path d="M350 325 Q340 340 355 350"/>
+  <path d="M355 330 Q365 340 360 355"/>
+  <path d="M355 330 Q370 335 375 350"/>
+  
+  <!-- Cheek details -->
+  <circle cx="130" cy="150" r="12"/>
+  <circle cx="270" cy="150" r="12"/>
+</svg>

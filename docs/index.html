@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KidsColorBook: Paint & Draw - Çocuklar İçin Boyama Uygulaması</title>
+    <meta name="description" content="KidsColorBook, 2-8 yaş arası çocuklar için tasarlanmış ücretsiz boyama ve çizim uygulaması. 200+ boyama sayfası, serbest çizim modu ve ebeveyn kontrolleri.">
+    <link rel="icon" type="image/png" href="icon.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #FFE066 0%, #FFB347 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Header */
+        header {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        
+        .logo {
+            width: 150px;
+            height: 150px;
+            border-radius: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            color: #E65100;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .subtitle {
+            font-size: 1.3rem;
+            color: #F57C00;
+            margin-bottom: 30px;
+        }
+        
+        /* Download Button */
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);
+            color: white;
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 5px 20px rgba(46, 125, 50, 0.4);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(46, 125, 50, 0.5);
+        }
+        
+        /* Features */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 50px 0;
+        }
+        
+        .feature-card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+        
+        .feature-card h3 {
+            color: #E65100;
+            margin-bottom: 10px;
+        }
+        
+        .feature-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        /* Screenshots */
+        .screenshots {
+            margin: 50px 0;
+            text-align: center;
+        }
+        
+        .screenshots h2 {
+            color: #E65100;
+            margin-bottom: 30px;
+            font-size: 2rem;
+        }
+        
+        .screenshot-grid {
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            padding: 20px 0;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .screenshot-grid img {
+            width: 200px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+        
+        /* Footer */
+        footer {
+            background: rgba(0,0,0,0.1);
+            padding: 30px 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        footer a {
+            color: #E65100;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        .copyright {
+            margin-top: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .subtitle {
+                font-size: 1rem;
+            }
+            
+            .logo {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="icon.png" alt="KidsColorBook Logo" class="logo">
+            <h1>KidsColorBook: Paint & Draw</h1>
+            <p class="subtitle">🎨 Çocuklar İçin Eğlenceli Boyama Uygulaması</p>
+            <a href="https://play.google.com/store/apps/details?id=com.kidscolorbook.app" class="download-btn">
+                📱 Google Play'den İndir
+            </a>
+        </header>
+        
+        <section class="features">
+            <div class="feature-card">
+                <div class="feature-icon">🖌️</div>
+                <h3>200+ Boyama Sayfası</h3>
+                <p>Hayvanlar, dinozorlar, araçlar, uzay ve daha fazlası! Her gün yeni keşifler.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🎨</div>
+                <h3>Serbest Çizim</h3>
+                <p>Hayal gücünü serbest bırak! Kendi eserlerini oluştur ve kaydet.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">👨‍👩‍👧</div>
+                <h3>Ebeveyn Kontrolleri</h3>
+                <p>Kullanım süresi takibi, günlük limitler ve mola hatırlatıcıları.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🌍</div>
+                <h3>6 Dil Desteği</h3>
+                <p>Türkçe, İngilizce, Almanca, Fransızca, İspanyolca ve Rusça.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">📴</div>
+                <h3>Çevrimdışı Çalışır</h3>
+                <p>İnternet bağlantısı gerekmez. Her yerde oyna!</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🆓</div>
+                <h3>Tamamen Ücretsiz</h3>
+                <p>Tüm özellikler ücretsiz. Çocuklara uygun reklamlar.</p>
+            </div>
+        </section>
+        
+        <section class="screenshots">
+            <h2>📸 Ekran Görüntüleri</h2>
+            <div class="screenshot-grid">
+                <img src="screenshots/screenshot_1.png" alt="Ana Ekran">
+                <img src="screenshots/screenshot_2.png" alt="Boyama Sayfası">
+                <img src="screenshots/screenshot_3.png" alt="Kategoriler">
+                <img src="screenshots/screenshot_4.png" alt="Serbest Çizim">
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <div>
+            <a href="privacy-policy.html">🔒 Gizlilik Politikası</a>
+            <a href="mailto:contact@kidscolorbook.app">📧 İletişim</a>
+        </div>
+        <p class="copyright">© 2026 KidsColorBook. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Main star -->
+  <path d="M200 50 L230 150 L340 150 L250 210 L280 320 L200 260 L120 320 L150 210 L60 150 L170 150 Z"/>
+  <!-- Inner star pattern -->
+  <path d="M200 100 L215 155 L270 155 L225 190 L240 250 L200 220 L160 250 L175 190 L130 155 L185 155 Z"/>
+  <!-- Face (optional cute face) -->
+  <circle cx="180" cy="170" r="8"/>
+  <circle cx="220" cy="170" r="8"/>
+  <path d="M185 195 Q200 210 215 195"/>
+  <!-- Sparkles around -->
+  <path d="M350 80 L360 90 L370 80 L360 70 Z"/>
+  <path d="M50 300 L60 310 L70 300 L60 290 Z"/>
+  <path d="M320 350 L330 360 L340 350 L330 340 Z"/>
+  <path d="M70 100 L80 110 L90 100 L80 90 Z"/>
+</svg>
+

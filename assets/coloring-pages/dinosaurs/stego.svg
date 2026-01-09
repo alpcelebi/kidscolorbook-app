@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Stegosaurus - professional coloring page -->
+  
+  <!-- Body -->
+  <ellipse cx="200" cy="250" rx="120" ry="70"/>
+  
+  <!-- Head -->
+  <path d="M320 230 Q360 220 380 240 Q390 260 380 280 Q360 295 330 290 L310 270"/>
+  
+  <!-- Eye -->
+  <circle cx="360" cy="255" r="12"/>
+  <circle cx="363" cy="253" r="6"/>
+  <circle cx="366" cy="250" r="2"/>
+  
+  <!-- Nostril -->
+  <ellipse cx="382" cy="265" rx="4" ry="3"/>
+  
+  <!-- Mouth -->
+  <path d="M380 280 Q375 290 365 288"/>
+  
+  <!-- Neck -->
+  <path d="M280 210 Q310 200 330 220"/>
+  <path d="M295 260 Q320 260 330 280"/>
+  
+  <!-- Back plates -->
+  <path d="M100 200 L110 160 L125 200"/>
+  <path d="M125 185 L140 130 L155 185"/>
+  <path d="M155 175 L175 110 L195 175"/>
+  <path d="M185 170 L210 100 L235 170"/>
+  <path d="M225 175 L245 120 L265 175"/>
+  <path d="M255 185 L275 145 L295 190"/>
+  <path d="M285 200 L300 170 L315 205"/>
+  
+  <!-- Front leg -->
+  <path d="M130 280 L115 340 Q115 360 135 360 L155 360 Q170 360 170 340 L155 280"/>
+  <!-- Front foot toes -->
+  <path d="M125 355 L120 370"/>
+  <path d="M140 358 L140 375"/>
+  <path d="M155 355 L160 370"/>
+  
+  <!-- Back leg -->
+  <path d="M240 285 L230 340 Q230 360 250 360 L275 360 Q295 360 295 340 L280 285"/>
+  <!-- Back foot toes -->
+  <path d="M245 355 L240 370"/>
+  <line x1="262" y1="358" x2="262" y2="375"/>
+  <path d="M280 355 L285 370"/>
+  
+  <!-- Tail -->
+  <path d="M80 250 Q40 260 30 300 Q30 340 60 350"/>
+  <path d="M80 260 Q50 270 45 305 Q45 335 70 345"/>
+  
+  <!-- Tail spikes -->
+  <path d="M45 305 L20 290 L50 310"/>
+  <path d="M40 325 L15 315 L45 335"/>
+  <path d="M55 345 L35 340 L60 355"/>
+  <path d="M70 350 L55 355 L80 365"/>
+  
+  <!-- Belly -->
+  <path d="M120 290 Q200 320 280 290"/>
+  
+  <!-- Body texture lines -->
+  <path d="M140 260 Q160 270 140 280"/>
+  <path d="M200 255 Q220 265 200 275"/>
+  <path d="M260 260 Q280 270 260 280"/>
+  
+  <!-- Ground -->
+  <path d="M20 375 Q100 380 200 375 Q300 370 380 375"/>
+  
+  <!-- Plants -->
+  <path d="M350 375 Q355 350 365 340"/>
+  <path d="M360 375 Q365 355 375 345"/>
+  <path d="M355 345 Q360 335 355 325"/>
+  
+  <path d="M40 375 Q35 355 45 345"/>
+  <path d="M50 375 Q55 360 65 355"/>
+  
+  <!-- Small rocks -->
+  <ellipse cx="320" cy="372" rx="15" ry="8"/>
+  <ellipse cx="100" cy="370" rx="12" ry="6"/>
+</svg>

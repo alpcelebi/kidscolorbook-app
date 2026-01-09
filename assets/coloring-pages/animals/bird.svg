@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Cute bird on branch - professional coloring page -->
+  
+  <!-- Branch -->
+  <path d="M30 320 Q100 310 200 300 Q300 290 380 310"/>
+  <path d="M30 330 Q100 320 200 310 Q300 300 380 320"/>
+  <!-- Branch texture -->
+  <path d="M80 315 Q85 320 80 325"/>
+  <path d="M150 308 Q155 315 150 320"/>
+  <path d="M250 298 Q255 305 250 310"/>
+  <path d="M320 302 Q325 308 320 315"/>
+  
+  <!-- Leaves -->
+  <path d="M60 310 Q40 280 60 260 Q80 280 60 310"/>
+  <path d="M340 300 Q360 270 380 280 Q365 305 340 300"/>
+  
+  <!-- Body -->
+  <ellipse cx="200" cy="220" rx="65" ry="55"/>
+  
+  <!-- Head -->
+  <circle cx="200" cy="130" r="55"/>
+  
+  <!-- Crown feathers -->
+  <path d="M185 80 Q175 50 190 40"/>
+  <path d="M200 75 Q200 40 210 35"/>
+  <path d="M215 80 Q225 50 210 40"/>
+  
+  <!-- Left eye -->
+  <circle cx="175" cy="125" r="16"/>
+  <circle cx="175" cy="128" r="9"/>
+  <circle cx="172" cy="122" r="4"/>
+  
+  <!-- Right eye -->
+  <circle cx="225" cy="125" r="16"/>
+  <circle cx="225" cy="128" r="9"/>
+  <circle cx="222" cy="122" r="4"/>
+  
+  <!-- Beak -->
+  <path d="M200 145 L175 165 L200 175 L225 165 Z"/>
+  <line x1="200" y1="155" x2="200" y2="175"/>
+  
+  <!-- Cheeks -->
+  <circle cx="155" cy="145" r="10"/>
+  <circle cx="245" cy="145" r="10"/>
+  
+  <!-- Chest pattern -->
+  <ellipse cx="200" cy="230" rx="35" ry="30"/>
+  <path d="M175 210 Q200 220 225 210"/>
+  <path d="M180 230 Q200 240 220 230"/>
+  <path d="M185 250 Q200 260 215 250"/>
+  
+  <!-- Left wing -->
+  <path d="M135 200 Q100 210 80 250 Q75 280 100 290 Q130 295 145 270"/>
+  <!-- Wing feathers -->
+  <path d="M100 245 L85 260"/>
+  <path d="M115 255 L100 275"/>
+  <path d="M130 260 L120 285"/>
+  
+  <!-- Right wing -->
+  <path d="M265 200 Q300 210 320 250 Q325 280 300 290 Q270 295 255 270"/>
+  <!-- Wing feathers -->
+  <path d="M300 245 L315 260"/>
+  <path d="M285 255 L300 275"/>
+  <path d="M270 260 L280 285"/>
+  
+  <!-- Tail feathers -->
+  <path d="M200 275 Q200 330 180 360"/>
+  <path d="M200 275 Q210 330 200 365"/>
+  <path d="M200 275 Q220 330 220 360"/>
+  
+  <!-- Feet -->
+  <path d="M175 275 L175 300"/>
+  <path d="M175 300 L160 315"/>
+  <path d="M175 300 L175 320"/>
+  <path d="M175 300 L190 315"/>
+  
+  <path d="M225 275 L225 300"/>
+  <path d="M225 300 L210 315"/>
+  <path d="M225 300 L225 320"/>
+  <path d="M225 300 L240 315"/>
+</svg>

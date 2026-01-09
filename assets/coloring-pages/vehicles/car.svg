@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Sporty car - professional coloring page -->
+  
+  <!-- Car body main shape -->
+  <path d="M40 250 L40 220 L80 220 L110 170 L290 170 L320 220 L360 220 L360 250 L340 250 L340 270 L60 270 L60 250 Z"/>
+  
+  <!-- Roof -->
+  <path d="M110 170 L125 130 L275 130 L290 170"/>
+  
+  <!-- Front windshield -->
+  <path d="M125 130 L110 170 L175 170 L175 135 L125 135"/>
+  
+  <!-- Rear windshield -->
+  <path d="M275 130 L290 170 L225 170 L225 135 L275 135"/>
+  
+  <!-- Side windows -->
+  <path d="M180 135 L180 170 L220 170 L220 135 Z"/>
+  <!-- Window divider -->
+  <line x1="200" y1="135" x2="200" y2="170"/>
+  
+  <!-- Front wheel -->
+  <circle cx="100" cy="270" r="40"/>
+  <circle cx="100" cy="270" r="28"/>
+  <circle cx="100" cy="270" r="12"/>
+  <!-- Wheel spokes -->
+  <line x1="100" y1="242" x2="100" y2="258"/>
+  <line x1="100" y1="282" x2="100" y2="298"/>
+  <line x1="72" y1="270" x2="88" y2="270"/>
+  <line x1="112" y1="270" x2="128" y2="270"/>
+  <line x1="80" y1="250" x2="90" y2="260"/>
+  <line x1="120" y1="290" x2="110" y2="280"/>
+  <line x1="80" y1="290" x2="90" y2="280"/>
+  <line x1="120" y1="250" x2="110" y2="260"/>
+  
+  <!-- Rear wheel -->
+  <circle cx="300" cy="270" r="40"/>
+  <circle cx="300" cy="270" r="28"/>
+  <circle cx="300" cy="270" r="12"/>
+  <!-- Wheel spokes -->
+  <line x1="300" y1="242" x2="300" y2="258"/>
+  <line x1="300" y1="282" x2="300" y2="298"/>
+  <line x1="272" y1="270" x2="288" y2="270"/>
+  <line x1="312" y1="270" x2="328" y2="270"/>
+  <line x1="280" y1="250" x2="290" y2="260"/>
+  <line x1="320" y1="290" x2="310" y2="280"/>
+  <line x1="280" y1="290" x2="290" y2="280"/>
+  <line x1="320" y1="250" x2="310" y2="260"/>
+  
+  <!-- Headlights -->
+  <ellipse cx="55" cy="230" rx="12" ry="18"/>
+  <ellipse cx="55" cy="230" rx="6" ry="10"/>
+  
+  <!-- Taillights -->
+  <ellipse cx="345" cy="230" rx="12" ry="18"/>
+  <ellipse cx="345" cy="230" rx="6" ry="10"/>
+  
+  <!-- Door -->
+  <path d="M140 175 L140 250 L260 250 L260 175"/>
+  <line x1="200" y1="175" x2="200" y2="250"/>
+  
+  <!-- Door handles -->
+  <path d="M165 210 L185 210"/>
+  <path d="M215 210 L235 210"/>
+  
+  <!-- Front grille -->
+  <path d="M40 230 L75 230 L75 245 L40 245"/>
+  <line x1="50" y1="230" x2="50" y2="245"/>
+  <line x1="60" y1="230" x2="60" y2="245"/>
+  
+  <!-- Side mirror -->
+  <ellipse cx="115" cy="160" rx="12" ry="8"/>
+  <line x1="115" y1="168" x2="120" y2="175"/>
+  
+  <!-- Racing stripes -->
+  <line x1="170" y1="130" x2="170" y2="170"/>
+  <line x1="175" y1="130" x2="175" y2="170"/>
+  <line x1="225" y1="130" x2="225" y2="170"/>
+  <line x1="230" y1="130" x2="230" y2="170"/>
+  
+  <!-- Exhaust -->
+  <ellipse cx="370" cy="255" rx="12" ry="6"/>
+  
+  <!-- Ground shadow line -->
+  <path d="M50 315 Q200 320 350 315"/>
+</svg>

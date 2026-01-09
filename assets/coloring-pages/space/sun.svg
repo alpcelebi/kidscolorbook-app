@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Professional Space Sun Coloring Page -->
+  <g fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Center with stylized flares -->
+    <circle cx="256" cy="256" r="120"/>
+    
+    <!-- Corona details inside -->
+    <path d="M256 160q20 0 40 10t40 30" opacity="0.5" stroke-dasharray="10 10"/>
+    <path d="M256 352q-20 0-40-10t-40-30" opacity="0.5" stroke-dasharray="10 10"/>
+
+    <!-- Large External Flares -->
+    <path d="M256 80V40"/>
+    <path d="M256 472v-40"/>
+    <path d="M80 256H40"/>
+    <path d="M472 256h-40"/>
+    
+    <!-- Diagonal Flares -->
+    <path d="M380 132l28-28"/>
+    <path d="M132 380l-28 28"/>
+    <path d="M132 132l-28-28"/>
+    <path d="M380 380l28 28"/>
+    
+    <!-- Small decoration stars around -->
+    <path d="M100 100l10 10m-10 0l10-10" />
+    <path d="M412 100l10 10m-10 0l10-10" />
+    <path d="M100 412l10 10m-10 0l10-10" />
+    <path d="M412 412l10 10m-10 0l10-10" />
+  </g>
+</svg>

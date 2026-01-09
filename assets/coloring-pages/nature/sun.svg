@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Professional Sun Coloring Page -->
+  <g fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Center Circle -->
+    <circle cx="256" cy="256" r="100"/>
+    
+    <!-- Face (Cute) -->
+    <g transform="translate(0, 10)">
+        <path d="M220 230q10 10 20 0" stroke-width="3"/> 
+        <path d="M272 230q10 10 20 0" stroke-width="3"/>
+        <path d="M246 270q10 10 20 0"/>
+        <!-- Cheeks -->
+        <circle cx="210" cy="250" r="10" fill="none" stroke-opacity="0.3"/>
+        <circle cx="302" cy="250" r="10" fill="none" stroke-opacity="0.3"/>
+    </g>
+
+    <!-- Rays - Wavy and varied -->
+    <g transform-origin="256 256">
+        <!-- 8 Major rays -->
+        <path d="M256 120V60"/>
+        <path d="M256 392v60"/>
+        <path d="M120 256H60"/>
+        <path d="M452 256h-60"/>
+        <path d="M352 160l42-42"/>
+        <path d="M160 352l-42 42"/>
+        <path d="M160 160l-42-42"/>
+        <path d="M352 352l42 42"/>
+        
+        <!-- 8 Minor rays (shorter) -->
+        <path d="M256 136V100" transform="rotate(22.5)"/>
+        <path d="M256 136V100" transform="rotate(67.5)"/>
+        <path d="M256 136V100" transform="rotate(112.5)"/>
+        <path d="M256 136V100" transform="rotate(157.5)"/>
+        <path d="M256 136V100" transform="rotate(202.5)"/>
+        <path d="M256 136V100" transform="rotate(247.5)"/>
+        <path d="M256 136V100" transform="rotate(292.5)"/>
+        <path d="M256 136V100" transform="rotate(337.5)"/>
+    </g>
+  </g>
+</svg>

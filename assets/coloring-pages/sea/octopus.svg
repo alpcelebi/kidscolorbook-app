@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Cute octopus - professional coloring page -->
+  
+  <!-- Head -->
+  <ellipse cx="200" cy="120" rx="100" ry="90"/>
+  
+  <!-- Left eye -->
+  <circle cx="160" cy="110" r="25"/>
+  <circle cx="165" cy="110" r="14"/>
+  <circle cx="168" cy="106" r="5"/>
+  
+  <!-- Right eye -->
+  <circle cx="240" cy="110" r="25"/>
+  <circle cx="245" cy="110" r="14"/>
+  <circle cx="248" cy="106" r="5"/>
+  
+  <!-- Eyebrows -->
+  <path d="M135 80 Q160 70 185 82"/>
+  <path d="M265 80 Q240 70 215 82"/>
+  
+  <!-- Mouth -->
+  <path d="M175 155 Q200 175 225 155"/>
+  
+  <!-- Cheeks -->
+  <ellipse cx="130" cy="135" rx="15" ry="10"/>
+  <ellipse cx="270" cy="135" rx="15" ry="10"/>
+  
+  <!-- Spots on head -->
+  <circle cx="140" cy="70" r="10"/>
+  <circle cx="200" cy="55" r="12"/>
+  <circle cx="260" cy="75" r="8"/>
+  
+  <!-- Tentacle 1 (front left) -->
+  <path d="M120 180 Q80 220 70 280 Q65 320 90 360 Q110 380 130 360"/>
+  <circle cx="85" cy="300" r="8"/>
+  <circle cx="78" cy="330" r="7"/>
+  <circle cx="95" cy="355" r="6"/>
+  
+  <!-- Tentacle 2 (front left-center) -->
+  <path d="M150 190 Q120 250 130 310 Q140 360 170 380 Q195 390 200 365"/>
+  <circle cx="135" cy="280" r="8"/>
+  <circle cx="140" cy="320" r="7"/>
+  <circle cx="160" cy="360" r="6"/>
+  
+  <!-- Tentacle 3 (front right-center) -->
+  <path d="M250 190 Q280 250 270 310 Q260 360 230 380 Q205 390 200 365"/>
+  <circle cx="265" cy="280" r="8"/>
+  <circle cx="260" cy="320" r="7"/>
+  <circle cx="240" cy="360" r="6"/>
+  
+  <!-- Tentacle 4 (front right) -->
+  <path d="M280 180 Q320 220 330 280 Q335 320 310 360 Q290 380 270 360"/>
+  <circle cx="315" cy="300" r="8"/>
+  <circle cx="322" cy="330" r="7"/>
+  <circle cx="305" cy="355" r="6"/>
+  
+  <!-- Tentacle 5 (back left) -->
+  <path d="M105 160 Q50 180 30 240 Q20 290 50 330"/>
+  <circle cx="45" cy="260" r="7"/>
+  <circle cx="35" cy="295" r="6"/>
+  
+  <!-- Tentacle 6 (back right) -->
+  <path d="M295 160 Q350 180 370 240 Q380 290 350 330"/>
+  <circle cx="355" cy="260" r="7"/>
+  <circle cx="365" cy="295" r="6"/>
+  
+  <!-- Tentacle 7 (far left) -->
+  <path d="M110 145 Q60 150 40 180 Q20 220 40 260"/>
+  <circle cx="50" cy="200" r="6"/>
+  <circle cx="38" cy="235" r="5"/>
+  
+  <!-- Tentacle 8 (far right) -->
+  <path d="M290 145 Q340 150 360 180 Q380 220 360 260"/>
+  <circle cx="350" cy="200" r="6"/>
+  <circle cx="362" cy="235" r="5"/>
+  
+  <!-- Bubbles -->
+  <circle cx="50" cy="80" r="12"/>
+  <circle cx="35" cy="110" r="8"/>
+  <circle cx="60" cy="130" r="6"/>
+  <circle cx="350" cy="60" r="10"/>
+  <circle cx="365" cy="90" r="7"/>
+  
+  <!-- Seaweed -->
+  <path d="M380 380 Q375 350 385 330 Q375 310 365 290 Q375 270 380 260"/>
+  <path d="M390 380 Q395 350 385 320"/>
+  
+  <!-- Sea floor -->
+  <path d="M20 385 Q100 375 200 380 Q300 385 380 375"/>
+  
+  <!-- Small shells -->
+  <path d="M60 378 Q65 370 75 375 Q80 380 75 385 Q65 385 60 378"/>
+  <path d="M320 380 Q325 372 335 377 Q340 382 335 387 Q325 387 320 380"/>
+</svg>

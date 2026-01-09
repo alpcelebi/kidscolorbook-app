@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Cute astronaut - professional coloring page -->
+  
+  <!-- Helmet -->
+  <circle cx="200" cy="120" r="70"/>
+  <!-- Helmet visor -->
+  <circle cx="200" cy="125" r="50"/>
+  <!-- Visor shine -->
+  <path d="M165 105 Q175 95 185 100"/>
+  <path d="M170 115 Q180 110 185 115"/>
+  
+  <!-- Face inside helmet -->
+  <!-- Eyes -->
+  <circle cx="180" cy="125" r="10"/>
+  <circle cx="220" cy="125" r="10"/>
+  <circle cx="182" cy="123" r="4"/>
+  <circle cx="222" cy="123" r="4"/>
+  
+  <!-- Smile -->
+  <path d="M185 145 Q200 160 215 145"/>
+  
+  <!-- Cheeks -->
+  <circle cx="165" cy="140" r="8"/>
+  <circle cx="235" cy="140" r="8"/>
+  
+  <!-- Helmet details -->
+  <path d="M130 110 L130 140"/>
+  <path d="M270 110 L270 140"/>
+  
+  <!-- Helmet antenna -->
+  <line x1="200" y1="50" x2="200" y2="30"/>
+  <circle cx="200" cy="25" r="8"/>
+  
+  <!-- Body/suit -->
+  <path d="M140 180 Q130 200 130 250 Q130 300 160 320 L240 320 Q270 300 270 250 Q270 200 260 180"/>
+  <path d="M140 180 Q170 190 200 190 Q230 190 260 180"/>
+  
+  <!-- Chest control panel -->
+  <rect x="170" y="210" width="60" height="40" rx="5"/>
+  <circle cx="185" cy="225" r="6"/>
+  <circle cx="215" cy="225" r="6"/>
+  <rect x="180" y="235" width="15" height="8" rx="2"/>
+  <rect x="205" y="235" width="15" height="8" rx="2"/>
+  
+  <!-- Life support backpack -->
+  <path d="M135 195 L115 195 L115 290 L135 290"/>
+  <path d="M265 195 L285 195 L285 290 L265 290"/>
+  <rect x="115" y="210" width="20" height="60" rx="3"/>
+  <rect x="265" y="210" width="20" height="60" rx="3"/>
+  
+  <!-- Left arm -->
+  <path d="M130 200 Q100 220 90 260 Q85 290 100 310"/>
+  <ellipse cx="100" cy="315" rx="20" ry="15"/>
+  
+  <!-- Right arm -->
+  <path d="M270 200 Q300 220 310 260 Q315 290 300 310"/>
+  <ellipse cx="300" cy="315" rx="20" ry="15"/>
+  
+  <!-- Glove details -->
+  <path d="M85 310 L90 325"/>
+  <line x1="100" y1="318" x2="100" y2="335"/>
+  <path d="M115 310 L110 325"/>
+  <path d="M285 310 L290 325"/>
+  <line x1="300" y1="318" x2="300" y2="335"/>
+  <path d="M315 310 L310 325"/>
+  
+  <!-- Legs -->
+  <path d="M160 320 L150 370 Q150 385 170 385 L190 385"/>
+  <path d="M240 320 L250 370 Q250 385 230 385 L210 385"/>
+  
+  <!-- Boots -->
+  <ellipse cx="170" cy="385" rx="25" ry="12"/>
+  <ellipse cx="230" cy="385" rx="25" ry="12"/>
+  
+  <!-- Boot soles -->
+  <path d="M150 390 L190 390"/>
+  <path d="M210 390 L250 390"/>
+  
+  <!-- Oxygen tube -->
+  <path d="M130 150 Q110 160 110 180 Q110 195 130 200"/>
+  
+  <!-- Stars around astronaut -->
+  <path d="M50 80 L55 95 L70 95 L58 105 L63 120 L50 110 L37 120 L42 105 L30 95 L45 95 Z"/>
+  <path d="M350 150 L353 160 L363 160 L355 167 L358 177 L350 170 L342 177 L345 167 L337 160 L347 160 Z"/>
+  <path d="M320 50 L322 57 L329 57 L323 62 L325 69 L320 64 L315 69 L317 62 L311 57 L318 57 Z"/>
+  
+  <!-- Planet in background -->
+  <circle cx="60" cy="350" r="30"/>
+  <path d="M35 345 Q60 335 85 345"/>
+  <ellipse cx="60" cy="350" rx="40" ry="10"/>
+</svg>

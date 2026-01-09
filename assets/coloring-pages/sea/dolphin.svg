@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Playful dolphin - professional coloring page -->
+  
+  <!-- Body -->
+  <path d="M50 200 Q80 150 150 140 Q220 130 280 150 Q340 175 370 220 Q380 260 350 280 Q300 300 230 290 Q160 280 100 260 Q50 240 50 200"/>
+  
+  <!-- Dorsal fin -->
+  <path d="M180 130 Q200 80 230 100 Q240 120 220 140"/>
+  
+  <!-- Tail flukes -->
+  <path d="M350 280 Q380 260 390 290 Q395 320 370 320 Q350 315 350 290"/>
+  <path d="M350 280 Q380 300 380 330 Q375 360 345 350 Q330 340 345 310"/>
+  
+  <!-- Pectoral fin -->
+  <path d="M150 200 Q130 230 150 260 Q170 270 180 250 Q175 220 150 200"/>
+  
+  <!-- Eye -->
+  <circle cx="100" cy="180" r="15"/>
+  <circle cx="103" cy="178" r="8"/>
+  <circle cx="106" cy="175" r="3"/>
+  
+  <!-- Smile -->
+  <path d="M70 195 Q85 210 100 200"/>
+  
+  <!-- Beak/snout -->
+  <path d="M50 190 Q30 195 25 200 Q30 210 50 210"/>
+  
+  <!-- Blowhole -->
+  <ellipse cx="130" cy="145" rx="8" ry="5"/>
+  
+  <!-- Water spout -->
+  <path d="M130 140 Q125 120 135 100"/>
+  <path d="M130 140 Q135 118 125 95"/>
+  <circle cx="120" cy="90" r="8"/>
+  <circle cx="140" cy="85" r="8"/>
+  <circle cx="130" cy="75" r="10"/>
+  
+  <!-- Belly line -->
+  <path d="M70 210 Q150 250 250 260 Q300 265 340 250"/>
+  
+  <!-- Body stripes/details -->
+  <path d="M200 160 Q220 180 200 200"/>
+  <path d="M250 170 Q270 190 250 210"/>
+  <path d="M290 190 Q310 210 290 230"/>
+  
+  <!-- Waves -->
+  <path d="M20 320 Q50 310 80 320 Q110 330 140 320 Q170 310 200 320 Q230 330 260 320 Q290 310 320 320 Q350 330 380 320"/>
+  <path d="M30 345 Q60 335 90 345 Q120 355 150 345 Q180 335 210 345 Q240 355 270 345 Q300 335 330 345 Q360 355 390 345"/>
+  
+  <!-- Bubbles -->
+  <circle cx="60" cy="250" r="8"/>
+  <circle cx="80" cy="270" r="5"/>
+  <circle cx="45" cy="280" r="6"/>
+  <circle cx="95" cy="285" r="4"/>
+  
+  <!-- Small fish -->
+  <path d="M320 350 Q330 345 340 350 Q330 355 320 350"/>
+  <path d="M340 350 L350 345 L350 355 Z"/>
+  <circle cx="325" cy="350" r="2"/>
+  
+  <!-- Starfish on bottom -->
+  <path d="M70 370 L75 355 L85 365 L95 355 L100 370 L85 365 L70 370"/>
+</svg>

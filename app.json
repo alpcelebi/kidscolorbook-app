@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "KidsColorBook: Paint & Draw",
+    "slug": "kidscolorbook",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFE066"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kidscolorbook.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFE066"
+      },
+      "package": "com.kidscolorbook.app"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "./plugins/withShortCmakePath.js",
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-3940256099942544~3347511713",
+          "iosAppId": "ca-app-pub-3940256099942544~1458002511",
+          "user_tracking_description": "Bu uygulama size daha uygun reklamlar göstermek için reklam izleme kullanır.",
+          "delay_app_measurement_init": true,
+          "sk_ad_network_items": [
+            "cstr6suwn9.skadnetwork",
+            "4fzdc2evr5.skadnetwork"
+          ]
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M80 180 Q40 200 80 220 L320 220 Q360 200 320 180 Z"/>
+  <path d="M80 180 Q40 160 80 140 L320 140 Q360 160 320 180"/>
+  <ellipse cx="200" cy="180" rx="130" ry="30"/>
+  <path d="M90 160 Q130 180 170 160 Q210 180 250 160 Q290 180 330 160"/>
+  <path d="M100 190 Q140 210 180 190 Q220 210 260 190 Q300 210 320 195"/>
+</svg>
+

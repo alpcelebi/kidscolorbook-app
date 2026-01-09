@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Majestic lion - professional coloring page -->
+  
+  <!-- Mane outer layer -->
+  <path d="M200 40 Q240 35 270 50 Q310 70 330 110 Q350 160 345 200 Q350 250 330 290 Q300 330 260 345 Q200 360 140 345 Q100 330 70 290 Q50 250 55 200 Q50 160 70 110 Q90 70 130 50 Q160 35 200 40"/>
+  
+  <!-- Mane spikes -->
+  <path d="M200 40 L200 25 L210 45"/>
+  <path d="M240 38 L250 20 L255 48"/>
+  <path d="M275 55 L295 35 L290 65"/>
+  <path d="M310 85 L335 70 L315 100"/>
+  <path d="M335 130 L360 120 L340 150"/>
+  <path d="M348 180 L375 175 L350 200"/>
+  <path d="M345 230 L370 235 L345 255"/>
+  <path d="M330 280 L355 295 L325 300"/>
+  <path d="M295 320 L310 345 L285 330"/>
+  <path d="M250 340 L255 365 L235 345"/>
+  <path d="M200 350 L200 375 L200 350"/>
+  <path d="M150 340 L145 365 L165 345"/>
+  <path d="M105 320 L90 345 L115 330"/>
+  <path d="M70 280 L45 295 L75 300"/>
+  <path d="M55 230 L30 235 L55 255"/>
+  <path d="M52 180 L25 175 L50 200"/>
+  <path d="M65 130 L40 120 L60 150"/>
+  <path d="M90 85 L65 70 L85 100"/>
+  <path d="M125 55 L105 35 L110 65"/>
+  <path d="M160 38 L150 20 L145 48"/>
+  
+  <!-- Face -->
+  <circle cx="200" cy="180" r="75"/>
+  
+  <!-- Left ear -->
+  <path d="M130 115 Q115 95 130 85 Q145 80 150 100"/>
+  
+  <!-- Right ear -->
+  <path d="M270 115 Q285 95 270 85 Q255 80 250 100"/>
+  
+  <!-- Left eye -->
+  <ellipse cx="165" cy="160" rx="18" ry="22"/>
+  <ellipse cx="165" cy="165" rx="10" ry="14"/>
+  <circle cx="162" cy="158" r="4"/>
+  
+  <!-- Right eye -->
+  <ellipse cx="235" cy="160" rx="18" ry="22"/>
+  <ellipse cx="235" cy="165" rx="10" ry="14"/>
+  <circle cx="232" cy="158" r="4"/>
+  
+  <!-- Nose -->
+  <path d="M185 195 Q200 185 215 195 Q210 210 200 215 Q190 210 185 195"/>
+  
+  <!-- Mouth -->
+  <path d="M200 215 L200 230"/>
+  <path d="M200 230 Q180 245 160 235"/>
+  <path d="M200 230 Q220 245 240 235"/>
+  
+  <!-- Whisker dots -->
+  <circle cx="170" cy="205" r="3"/>
+  <circle cx="160" cy="215" r="3"/>
+  <circle cx="175" cy="220" r="3"/>
+  <circle cx="230" cy="205" r="3"/>
+  <circle cx="240" cy="215" r="3"/>
+  <circle cx="225" cy="220" r="3"/>
+  
+  <!-- Whiskers -->
+  <line x1="140" y1="200" x2="165" y2="205"/>
+  <line x1="135" y1="215" x2="158" y2="215"/>
+  <line x1="140" y1="230" x2="170" y2="222"/>
+  <line x1="260" y1="200" x2="235" y2="205"/>
+  <line x1="265" y1="215" x2="242" y2="215"/>
+  <line x1="260" y1="230" x2="230" y2="222"/>
+  
+  <!-- Body outline -->
+  <path d="M130 270 Q100 290 90 330 Q85 360 110 380 L150 380"/>
+  <path d="M270 270 Q300 290 310 330 Q315 360 290 380 L250 380"/>
+  
+  <!-- Front paws -->
+  <ellipse cx="150" cy="380" rx="30" ry="15"/>
+  <ellipse cx="250" cy="380" rx="30" ry="15"/>
+  
+  <!-- Paw details -->
+  <path d="M130 380 L130 375"/>
+  <path d="M145 382 L145 376"/>
+  <path d="M160 382 L160 376"/>
+  <path d="M175 380 L175 375"/>
+  <path d="M230 380 L230 375"/>
+  <path d="M245 382 L245 376"/>
+  <path d="M260 382 L260 376"/>
+  <path d="M275 380 L275 375"/>
+  
+  <!-- Crown (optional decoration) -->
+  <path d="M160 70 L170 55 L185 70 L200 50 L215 70 L230 55 L240 70"/>
+</svg>

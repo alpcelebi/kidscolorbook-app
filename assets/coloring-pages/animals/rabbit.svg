@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Cute bunny rabbit - professional coloring page -->
+  
+  <!-- Body -->
+  <ellipse cx="200" cy="290" rx="80" ry="70"/>
+  
+  <!-- Head -->
+  <circle cx="200" cy="165" r="70"/>
+  
+  <!-- Left ear -->
+  <path d="M145 100 Q130 40 140 20 Q155 5 170 20 Q185 50 175 100"/>
+  <!-- Left ear inner -->
+  <path d="M152 85 Q145 50 150 35 Q160 25 168 40 Q175 60 170 85"/>
+  
+  <!-- Right ear -->
+  <path d="M255 100 Q270 40 260 20 Q245 5 230 20 Q215 50 225 100"/>
+  <!-- Right ear inner -->
+  <path d="M248 85 Q255 50 250 35 Q240 25 232 40 Q225 60 230 85"/>
+  
+  <!-- Left eye -->
+  <circle cx="170" cy="155" r="18"/>
+  <circle cx="170" cy="158" r="10"/>
+  <circle cx="166" cy="152" r="4"/>
+  
+  <!-- Right eye -->
+  <circle cx="230" cy="155" r="18"/>
+  <circle cx="230" cy="158" r="10"/>
+  <circle cx="226" cy="152" r="4"/>
+  
+  <!-- Nose -->
+  <ellipse cx="200" cy="190" rx="12" ry="10"/>
+  <path d="M200 200 L200 185"/>
+  
+  <!-- Mouth -->
+  <path d="M200 200 L200 210"/>
+  <path d="M200 210 Q185 225 170 215"/>
+  <path d="M200 210 Q215 225 230 215"/>
+  
+  <!-- Teeth -->
+  <path d="M192 210 L192 225 Q192 230 200 230 Q208 230 208 225 L208 210"/>
+  <line x1="200" y1="210" x2="200" y2="230"/>
+  
+  <!-- Whiskers -->
+  <line x1="130" y1="180" x2="165" y2="190"/>
+  <line x1="125" y1="195" x2="162" y2="200"/>
+  <line x1="130" y1="210" x2="168" y2="205"/>
+  <line x1="270" y1="180" x2="235" y2="190"/>
+  <line x1="275" y1="195" x2="238" y2="200"/>
+  <line x1="270" y1="210" x2="232" y2="205"/>
+  
+  <!-- Cheeks -->
+  <circle cx="145" cy="185" r="15"/>
+  <circle cx="255" cy="185" r="15"/>
+  
+  <!-- Front paws -->
+  <ellipse cx="155" cy="340" rx="25" ry="18"/>
+  <ellipse cx="245" cy="340" rx="25" ry="18"/>
+  
+  <!-- Paw pads -->
+  <circle cx="145" cy="342" r="6"/>
+  <circle cx="165" cy="342" r="6"/>
+  <circle cx="155" cy="335" r="4"/>
+  <circle cx="235" cy="342" r="6"/>
+  <circle cx="255" cy="342" r="6"/>
+  <circle cx="245" cy="335" r="4"/>
+  
+  <!-- Front legs -->
+  <path d="M140 270 L140 325"/>
+  <path d="M170 270 L170 325"/>
+  <path d="M230 270 L230 325"/>
+  <path d="M260 270 L260 325"/>
+  
+  <!-- Back feet (big bunny feet) -->
+  <ellipse cx="120" cy="360" rx="35" ry="20"/>
+  <ellipse cx="280" cy="360" rx="35" ry="20"/>
+  
+  <!-- Back feet pads -->
+  <ellipse cx="120" cy="355" rx="15" ry="8"/>
+  <circle cx="100" cy="365" r="6"/>
+  <circle cx="115" cy="370" r="5"/>
+  <circle cx="130" cy="370" r="5"/>
+  <circle cx="145" cy="365" r="6"/>
+  
+  <ellipse cx="280" cy="355" rx="15" ry="8"/>
+  <circle cx="260" cy="365" r="6"/>
+  <circle cx="275" cy="370" r="5"/>
+  <circle cx="290" cy="370" r="5"/>
+  <circle cx="305" cy="365" r="6"/>
+  
+  <!-- Fluffy tail -->
+  <circle cx="280" cy="290" r="25"/>
+  <circle cx="295" cy="280" r="15"/>
+  <circle cx="290" cy="305" r="12"/>
+  
+  <!-- Belly -->
+  <ellipse cx="200" cy="300" rx="40" ry="35"/>
+</svg>

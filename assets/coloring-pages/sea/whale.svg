@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Body -->
+  <path d="M50 200 Q50 120 150 120 L300 120 Q380 120 380 200 Q380 280 300 280 L150 280 Q50 280 50 200"/>
+  <!-- Tail -->
+  <path d="M50 200 L10 150 Q0 140 10 160 L30 200 L10 240 Q0 260 10 250 L50 200"/>
+  <!-- Eye -->
+  <circle cx="320" cy="180" r="15"/>
+  <circle cx="323" cy="178" r="6" fill="#000"/>
+  <!-- Mouth -->
+  <path d="M350 220 Q370 230 360 250"/>
+  <!-- Belly line -->
+  <path d="M100 250 Q200 270 300 250"/>
+  <path d="M120 260 Q200 275 280 260"/>
+  <!-- Fin -->
+  <path d="M200 280 L220 340 L180 340 Z"/>
+  <!-- Spout -->
+  <path d="M280 120 Q280 80 260 60"/>
+  <path d="M280 120 Q280 80 300 60"/>
+  <path d="M250 50 Q270 40 290 50"/>
+  <path d="M245 35 Q270 25 295 35"/>
+  <!-- Water drops -->
+  <ellipse cx="270" cy="30" rx="8" ry="12"/>
+</svg>
+

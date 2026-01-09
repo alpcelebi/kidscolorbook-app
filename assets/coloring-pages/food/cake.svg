@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Birthday cake - professional coloring page -->
+  
+  <!-- Plate -->
+  <ellipse cx="200" cy="370" rx="150" ry="20"/>
+  
+  <!-- Bottom layer -->
+  <path d="M70 300 L70 350 Q70 360 80 360 L320 360 Q330 360 330 350 L330 300"/>
+  <path d="M70 300 Q200 280 330 300"/>
+  
+  <!-- Bottom layer frosting drips -->
+  <path d="M90 300 Q85 315 95 320"/>
+  <path d="M130 295 Q125 320 135 325"/>
+  <path d="M170 290 Q165 310 175 315"/>
+  <path d="M220 290 Q225 310 215 315"/>
+  <path d="M260 295 Q265 320 255 325"/>
+  <path d="M300 300 Q305 315 295 320"/>
+  
+  <!-- Middle layer -->
+  <path d="M90 220 L90 300 L310 300 L310 220"/>
+  <path d="M90 220 Q200 200 310 220"/>
+  
+  <!-- Middle layer frosting drips -->
+  <path d="M105 220 Q100 235 110 240"/>
+  <path d="M145 215 Q140 240 150 245"/>
+  <path d="M185 212 Q180 230 190 235"/>
+  <path d="M230 212 Q235 230 225 235"/>
+  <path d="M270 215 Q275 240 265 245"/>
+  <path d="M295 220 Q300 235 290 240"/>
+  
+  <!-- Top layer -->
+  <path d="M110 150 L110 220 L290 220 L290 150"/>
+  <path d="M110 150 Q200 130 290 150"/>
+  
+  <!-- Top layer frosting drips -->
+  <path d="M125 150 Q120 165 130 170"/>
+  <path d="M165 145 Q160 170 170 175"/>
+  <path d="M200 142 Q195 160 205 165"/>
+  <path d="M240 145 Q245 170 235 175"/>
+  <path d="M275 150 Q280 165 270 170"/>
+  
+  <!-- Candles -->
+  <!-- Center candle -->
+  <rect x="195" y="90" width="10" height="60" rx="2"/>
+  <path d="M200 90 Q195 75 200 65 Q205 75 200 90"/>
+  <circle cx="200" cy="60" r="8"/>
+  
+  <!-- Left candle -->
+  <rect x="145" y="100" width="10" height="50" rx="2"/>
+  <path d="M150 100 Q145 85 150 75 Q155 85 150 100"/>
+  <circle cx="150" cy="70" r="8"/>
+  
+  <!-- Right candle -->
+  <rect x="245" y="100" width="10" height="50" rx="2"/>
+  <path d="M250 100 Q245 85 250 75 Q255 85 250 100"/>
+  <circle cx="250" cy="70" r="8"/>
+  
+  <!-- Decorations on cake -->
+  <!-- Roses on top -->
+  <circle cx="130" cy="145" r="12"/>
+  <path d="M125 145 Q130 140 135 145"/>
+  <path d="M122 148 Q130 142 138 148"/>
+  
+  <circle cx="270" cy="145" r="12"/>
+  <path d="M265 145 Q270 140 275 145"/>
+  <path d="M262 148 Q270 142 278 148"/>
+  
+  <!-- Dots decoration -->
+  <circle cx="100" cy="260" r="6"/>
+  <circle cx="130" cy="255" r="6"/>
+  <circle cx="160" cy="260" r="6"/>
+  <circle cx="190" cy="255" r="6"/>
+  <circle cx="220" cy="260" r="6"/>
+  <circle cx="250" cy="255" r="6"/>
+  <circle cx="280" cy="260" r="6"/>
+  <circle cx="300" cy="265" r="6"/>
+  
+  <!-- Swirl decorations on bottom layer -->
+  <path d="M100 330 Q110 320 120 330 Q130 340 140 330"/>
+  <path d="M170 335 Q180 325 190 335 Q200 345 210 335"/>
+  <path d="M240 330 Q250 320 260 330 Q270 340 280 330"/>
+  
+  <!-- Cherry on top -->
+  <circle cx="200" cy="40" r="12"/>
+  <path d="M200 28 Q210 20 215 25"/>
+  <path d="M212 22 Q220 15 225 20 Q218 22 212 22"/>
+  
+  <!-- Sparkles -->
+  <path d="M80 100 L85 110 L95 105 L85 115 L80 125 L75 115 L65 105 L75 110 Z"/>
+  <path d="M320 120 L323 127 L330 125 L325 130 L322 137 L319 130 L312 132 L317 127 Z"/>
+  
+  <!-- Confetti -->
+  <ellipse cx="60" cy="150" rx="5" ry="3" transform="rotate(30 60 150)"/>
+  <ellipse cx="340" cy="180" rx="5" ry="3" transform="rotate(-20 340 180)"/>
+  <ellipse cx="50" cy="250" rx="4" ry="2" transform="rotate(45 50 250)"/>
+  <ellipse cx="350" cy="280" rx="4" ry="2" transform="rotate(-45 350 280)"/>
+</svg>
