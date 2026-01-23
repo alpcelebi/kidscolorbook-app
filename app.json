@@ -13,7 +13,7 @@
       "backgroundColor": "#FFE066"
     },
     "ios": {
-      "supportsTablet": true,
+      "supportsTablet": false,
       "bundleIdentifier": "com.kidscolorbook.app"
     },
     "android": {
@@ -29,7 +29,7 @@
       [
         "react-native-google-mobile-ads",
         {
-          "androidAppId": "ca-app-pub-3940256099942544~3347511713",
+          "androidAppId": "ca-app-pub-2797060940023450~4895605897",
           "iosAppId": "ca-app-pub-3940256099942544~1458002511",
           "user_tracking_description": "Bu uygulama size daha uygun reklamlar göstermek için reklam izleme kullanır.",
           "delay_app_measurement_init": true,
@@ -39,6 +39,11 @@
           ]
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7d888735-5161-4b75-845d-63e27efde69e"
+      }
+    }
   }
 }

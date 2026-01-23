@@ -15,8 +15,8 @@ import { TestIds } from 'react-native-google-mobile-ads';
 // Üretim için gerçek Ad Unit ID'leri buraya ekleyin
 const PRODUCTION_AD_UNITS = {
     android: {
-        banner: 'ca-app-pub-XXXXXXXXXXXXX/XXXXXXXXXX', // Buraya gerçek Android Banner ID
-        interstitial: 'ca-app-pub-XXXXXXXXXXXXX/XXXXXXXXXX', // Buraya gerçek Android Interstitial ID
+        banner: 'ca-app-pub-2797060940023450/3582524223', // Gerçek Android Banner ID
+        interstitial: 'ca-app-pub-2797060940023450/2269442553', // Gerçek Android Interstitial ID
         rewarded: 'ca-app-pub-XXXXXXXXXXXXX/XXXXXXXXXX', // Buraya gerçek Android Rewarded ID
     },
     ios: {
