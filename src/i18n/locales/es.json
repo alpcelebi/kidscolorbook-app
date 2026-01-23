@@ -198,7 +198,16 @@
     "fries": "Patatas Fritas",
     "cherry": "Cereza",
     "grapes": "Uvas",
-    "pineapple": "Piña"
+    "pineapple": "Piña",
+    "dragon": "Dragón",
+    "unicorn": "Unicornio",
+    "wizard": "Mago",
+    "fairy": "Hada",
+    "knight": "Caballero",
+    "princess": "Princesa",
+    "elf": "Elfo",
+    "phoenix": "Fénix",
+    "castle_fantasy": "Castillo Fantástico"
   },
   "category": {
     "pages": "{{count}} páginas",

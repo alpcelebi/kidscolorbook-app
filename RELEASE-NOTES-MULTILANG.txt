@@ -1,0 +1,480 @@
+================================================================================
+      GOOGLE PLAY - SÜRÜM NOTLARI (KOPYALA-YAPIŞTIR FORMAT)
+                    KidsColorBook: Paint & Draw
+================================================================================
+
+Her dil için etiketler arasındaki metni kopyalayıp Google Play Console'a yapıştırın.
+
+================================================================================
+                         SÜRÜM NOTLARI
+================================================================================
+
+<en-US>
+What's New in v2.0.0:
+
+🎨 Initial Release!
+• 80+ coloring pages across 8 categories
+• Free drawing mode with various brushes
+• Art gallery to save your creations
+• Parental controls and usage tracking
+• Support for 6 languages
+• Kid-safe advertisements
+• Works completely offline
+
+Have fun coloring! 🌈
+</en-US>
+
+<en-GB>
+What's New in v2.0.0:
+
+🎨 Initial Release!
+• 80+ colouring pages across 8 categories
+• Free drawing mode with various brushes
+• Art gallery to save your creations
+• Parental controls and usage tracking
+• Support for 6 languages
+• Kid-safe advertisements
+• Works completely offline
+
+Have fun colouring! 🌈
+</en-GB>
+
+<tr-TR>
+v2.0.0'daki Yenilikler:
+
+🎨 İlk Sürüm!
+• 8 kategoride 80+ boyama sayfası
+• Çeşitli fırçalarla serbest çizim modu
+• Eserlerinizi kaydetmek için sanat galerisi
+• Ebeveyn kontrolleri ve kullanım takibi
+• 6 dil desteği
+• Çocuklara uygun reklamlar
+• Tamamen çevrimdışı çalışır
+
+İyi eğlenceler! 🌈
+</tr-TR>
+
+<de-DE>
+Neu in v2.0.0:
+
+🎨 Erstveröffentlichung!
+• 80+ Malvorlagen in 8 Kategorien
+• Freies Zeichnen mit verschiedenen Pinseln
+• Kunstgalerie zum Speichern Ihrer Werke
+• Elternkontrollen und Nutzungsverfolgung
+• Unterstützung für 6 Sprachen
+• Kindgerechte Werbung
+• Funktioniert komplett offline
+
+Viel Spaß beim Malen! 🌈
+</de-DE>
+
+<fr-FR>
+Nouveautés v2.0.0:
+
+🎨 Première version!
+• 80+ pages de coloriage dans 8 catégories
+• Mode dessin libre avec différents pinceaux
+• Galerie d'art pour sauvegarder vos créations
+• Contrôle parental et suivi d'utilisation
+• Support de 6 langues
+• Publicités adaptées aux enfants
+• Fonctionne entièrement hors ligne
+
+Bon coloriage! 🌈
+</fr-FR>
+
+<es-ES>
+Novedades en v2.0.0:
+
+🎨 ¡Lanzamiento inicial!
+• 80+ páginas para colorear en 8 categorías
+• Modo de dibujo libre con varios pinceles
+• Galería de arte para guardar tus creaciones
+• Controles parentales y seguimiento de uso
+• Soporte para 6 idiomas
+• Anuncios aptos para niños
+• Funciona completamente sin conexión
+
+¡Disfruta coloreando! 🌈
+</es-ES>
+
+<ru-RU>
+Что нового в v2.0.0:
+
+🎨 Первый релиз!
+• 80+ раскрасок в 8 категориях
+• Режим свободного рисования с различными кистями
+• Галерея для сохранения ваших работ
+• Родительский контроль и отслеживание использования
+• Поддержка 6 языков
+• Безопасная для детей реклама
+• Полностью работает офлайн 
+
+Приятного раскрашивания! 🌈
+</ru-RU>
+
+
+================================================================================
+                         KISA AÇIKLAMA (80 karakter max)
+================================================================================
+
+<en-US>
+Fun coloring book for kids! 80+ coloring pages, free drawing & parental controls
+</en-US>
+
+<en-GB>
+Fun colouring book for kids! 80+ colouring pages, free drawing & parental controls
+</en-GB>
+
+<tr-TR>
+Çocuklar için eğlenceli boyama! 80+ sayfa, serbest çizim ve ebeveyn kontrolü
+</tr-TR>
+
+<de-DE>
+Malbuch für Kinder! 80+ Malvorlagen, freies Zeichnen & Elternkontrolle
+</de-DE>
+
+<fr-FR>
+Coloriage pour enfants! 80+ pages, dessin libre et contrôle parental
+</fr-FR>
+
+<es-ES>
+¡Colorear para niños! 80+ páginas, dibujo libre y control parental
+</es-ES>
+
+<ru-RU>
+Раскраска для детей! 80+ страниц, свободное рисование и родительский контроль
+</ru-RU>
+
+
+================================================================================
+                         TAM AÇIKLAMA
+================================================================================
+
+<en-US>
+🎨 KidsColorBook: Paint & Draw - The Ultimate Coloring App for Kids!
+
+Unleash your child's creativity! KidsColorBook is a free digital coloring book designed for children ages 2-8.
+
+✨ FEATURES:
+
+🖌️ 80+ Coloring Pages
+• Animals: Cat, dog, lion, elephant and more
+• Dinosaurs: T-Rex, Stegosaurus, Brontosaurus
+• Vehicles: Car, airplane, train, rocket
+• Nature: Trees, flowers, rainbow
+• Sea Life: Fish, dolphin, jellyfish
+• Space: Planets, astronauts, rockets
+• Food: Fruits, sweets, pizza
+
+🎨 Free Drawing Mode
+• Let your imagination run wild
+• Various brush sizes
+• Vibrant color palette
+• Undo/redo support
+
+📱 Kid-Friendly Interface
+• Easy to use for children
+• Touch-to-color support
+• No complicated menus
+
+🖼️ Art Gallery
+• Save your artworks
+• Share on social media
+• Mark your favorites
+
+👨‍👩‍👧 Parental Controls
+• Usage time tracking
+• Daily limit settings
+• Break reminders
+• Sleep time lock
+
+🌍 Multi-Language Support
+• English
+• Turkish
+• German
+• French
+• Spanish
+• Russian
+
+⭐ WHY KIDSCOLORBOOK?
+✓ Completely free
+✓ Kid-safe advertisements
+✓ Works offline - no internet needed
+✓ Regular content updates
+✓ Educational and fun
+✓ COPPA compliant
+
+Download now and start your child's artistic journey! 🌈
+
+We value your feedback! Contact us at alpcelebi33@gmail.com
+</en-US>
+
+<tr-TR>
+🎨 KidsColorBook: Paint & Draw - Çocuklar İçin En İyi Boyama Uygulaması!
+
+Çocuğunuzun yaratıcılığını ortaya çıkarın! KidsColorBook, 2-8 yaş arası çocuklar için tasarlanmış ücretsiz bir dijital boyama kitabıdır.
+
+✨ ÖZELLİKLER:
+
+🖌️ 80+ Boyama Sayfası
+• Hayvanlar: Kedi, köpek, aslan, fil ve daha fazlası
+• Dinozorlar: T-Rex, Stegozor, Brontozor
+• Araçlar: Araba, uçak, tren, roket
+• Doğa: Ağaçlar, çiçekler, gökkuşağı
+• Deniz Canlıları: Balık, yunus, denizanası
+• Uzay: Gezegenler, astronotlar, roketler
+• Yiyecekler: Meyveler, tatlılar, pizza
+
+🎨 Serbest Çizim Modu
+• Hayal gücünü serbest bırak
+• Çeşitli fırça boyutları
+• Canlı renk paleti
+• Geri al/ileri al desteği
+
+📱 Çocuk Dostu Arayüz
+• Çocuklar için kolay kullanım
+• Dokunarak boyama desteği
+• Karmaşık menüler yok
+
+🖼️ Sanat Galerisi
+• Eserlerini kaydet
+• Sosyal medyada paylaş
+• Favorilerini işaretle
+
+👨‍👩‍👧 Ebeveyn Kontrolleri
+• Kullanım süresi takibi
+• Günlük limit ayarları
+• Mola hatırlatıcıları
+• Uyku zamanı kilidi
+
+🌍 Çoklu Dil Desteği
+• Türkçe
+• İngilizce
+• Almanca
+• Fransızca
+• İspanyolca
+• Rusça
+
+⭐ NEDEN KidsColorBook?
+✓ Tamamen ücretsiz
+✓ Çocuklara uygun reklamlar
+✓ Çevrimdışı çalışır - internet gerekmez
+✓ Düzenli içerik güncellemeleri
+✓ Eğitici ve eğlenceli
+✓ COPPA uyumlu
+
+Hemen indirin ve çocuğunuzun sanatsal yolculuğuna başlayın! 🌈
+
+Geri bildirimlerinizi bekliyoruz: alpcelebi33@gmail.com
+</tr-TR>
+
+<de-DE>
+🎨 KidsColorBook: Paint & Draw - Die ultimative Mal-App für Kinder!
+
+Entfesseln Sie die Kreativität Ihres Kindes! KidsColorBook ist ein kostenloses digitales Malbuch für Kinder von 2-8 Jahren.
+
+✨ FUNKTIONEN:
+
+🖌️ 80+ Malvorlagen
+• Tiere: Katze, Hund, Löwe, Elefant und mehr
+• Dinosaurier: T-Rex, Stegosaurus, Brontosaurus
+• Fahrzeuge: Auto, Flugzeug, Zug, Rakete
+• Natur: Bäume, Blumen, Regenbogen
+• Meerestiere: Fisch, Delfin, Qualle
+• Weltraum: Planeten, Astronauten, Raketen
+• Essen: Früchte, Süßigkeiten, Pizza
+
+🎨 Freies Zeichnen
+• Lass deiner Fantasie freien Lauf
+• Verschiedene Pinselgrößen
+• Lebendige Farbpalette
+• Rückgängig/Wiederholen
+
+📱 Kinderfreundliche Oberfläche
+• Einfach zu bedienen
+• Touch-to-Color
+• Keine komplizierten Menüs
+
+🖼️ Kunstgalerie
+• Speichern Sie Ihre Kunstwerke
+• Teilen in sozialen Medien
+• Favoriten markieren
+
+👨‍👩‍👧 Elternkontrollen
+• Nutzungszeitverfolgung
+• Tägliche Limits
+• Pausenerinnerungen
+• Schlafenszeitsperre
+
+⭐ WARUM KIDSCOLORBOOK?
+✓ Völlig kostenlos
+✓ Kindgerechte Werbung
+✓ Funktioniert offline
+✓ Regelmäßige Updates
+✓ Lehrreich und unterhaltsam
+✓ COPPA-konform
+
+Jetzt herunterladen! 🌈
+
+Kontakt: alpcelebi33@gmail.com
+</de-DE>
+
+<fr-FR>
+🎨 KidsColorBook: Paint & Draw - L'application de coloriage ultime pour enfants!
+
+Libérez la créativité de votre enfant! KidsColorBook est un livre de coloriage numérique gratuit conçu pour les enfants de 2 à 8 ans.
+
+✨ CARACTÉRISTIQUES:
+
+🖌️ 80+ Pages de Coloriage
+• Animaux: Chat, chien, lion, éléphant et plus
+• Dinosaures: T-Rex, Stégosaure, Brontosaure
+• Véhicules: Voiture, avion, train, fusée
+• Nature: Arbres, fleurs, arc-en-ciel
+• Vie marine: Poisson, dauphin, méduse
+• Espace: Planètes, astronautes, fusées
+• Nourriture: Fruits, bonbons, pizza
+
+🎨 Mode Dessin Libre
+• Laissez libre cours à votre imagination
+• Différentes tailles de pinceaux
+• Palette de couleurs vives
+• Annuler/Rétablir
+
+� Interface Adaptée aux Enfants
+• Facile à utiliser
+• Toucher pour colorier
+• Pas de menus compliqués
+
+🖼️ Galerie d'Art
+• Sauvegardez vos œuvres
+• Partagez sur les réseaux sociaux
+• Marquez vos favoris
+
+�👨‍👩‍👧 Contrôle Parental
+• Suivi du temps d'utilisation
+• Limites quotidiennes
+• Rappels de pause
+• Verrouillage heure du coucher
+
+⭐ POURQUOI KIDSCOLORBOOK?
+✓ Entièrement gratuit
+✓ Publicités adaptées aux enfants
+✓ Fonctionne hors ligne
+✓ Mises à jour régulières
+✓ Éducatif et amusant
+✓ Conforme COPPA
+
+Téléchargez maintenant! 🌈
+
+Contact: alpcelebi33@gmail.com
+</fr-FR>
+
+<es-ES>
+🎨 KidsColorBook: Paint & Draw - ¡La mejor app de colorear para niños!
+
+¡Libera la creatividad de tu hijo! KidsColorBook es un libro de colorear digital gratuito diseñado para niños de 2 a 8 años.
+
+✨ CARACTERÍSTICAS:
+
+🖌️ 80+ Páginas para Colorear
+• Animales: Gato, perro, león, elefante y más
+• Dinosaurios: T-Rex, Estegosaurio, Brontosaurio
+• Vehículos: Coche, avión, tren, cohete
+• Naturaleza: Árboles, flores, arcoíris
+• Vida marina: Pez, delfín, medusa
+• Espacio: Planetas, astronautas, cohetes
+• Comida: Frutas, dulces, pizza
+
+🎨 Modo Dibujo Libre
+• Deja volar tu imaginación
+• Varios tamaños de pincel
+• Paleta de colores vibrantes
+• Deshacer/Rehacer
+
+📱 Interfaz para Niños
+• Fácil de usar
+• Toca para colorear
+• Sin menús complicados
+
+�️ Galería de Arte
+• Guarda tus obras
+• Comparte en redes sociales
+• Marca tus favoritos
+
+�👨‍👩‍👧 Control Parental
+• Seguimiento del tiempo
+• Límites diarios
+• Recordatorios de descanso
+• Bloqueo hora de dormir
+
+⭐ ¿POR QUÉ KIDSCOLORBOOK?
+✓ Completamente gratis
+✓ Anuncios aptos para niños
+✓ Funciona sin conexión
+✓ Actualizaciones regulares
+✓ Educativo y divertido
+✓ Cumple con COPPA
+
+¡Descarga ahora! 🌈
+
+Contacto: alpcelebi33@gmail.com
+</es-ES>
+
+<ru-RU>
+🎨 KidsColorBook: Paint & Draw - Лучшее приложение-раскраска для детей!
+
+Раскройте творческий потенциал вашего ребенка! KidsColorBook - бесплатная цифровая книжка-раскраска для детей 2-8 лет.
+
+✨ ОСОБЕННОСТИ:
+
+🖌️ 80+ Раскрасок
+• Животные: Кот, собака, лев, слон и другие
+• Динозавры: Т-Рекс, Стегозавр, Бронтозавр
+• Транспорт: Машина, самолет, поезд, ракета
+• Природа: Деревья, цветы, радуга
+• Морские обитатели: Рыба, дельфин, медуза
+• Космос: Планеты, космонавты, ракеты
+• Еда: Фрукты, сладости, пицца
+
+🎨 Свободное Рисование
+• Дайте волю воображению
+• Различные размеры кистей
+• Яркая палитра цветов
+• Отмена/Повтор
+
+📱 Детский Интерфейс
+• Простой в использовании
+• Нажми чтобы раскрасить
+• Без сложных меню
+
+🖼️ Галерея
+• Сохраняйте работы
+• Делитесь в соцсетях
+• Отмечайте избранное
+
+👨‍👩‍👧 Родительский Контроль
+• Отслеживание времени
+• Дневные лимиты
+• Напоминания о перерывах
+• Блокировка на ночь
+
+⭐ ПОЧЕМУ KIDSCOLORBOOK?
+✓ Полностью бесплатно
+✓ Безопасная реклама
+✓ Работает офлайн
+✓ Регулярные обновления
+✓ Обучающее и веселое
+✓ Соответствует COPPA
+
+Скачайте сейчас! 🌈
+
+Контакт: alpcelebi33@gmail.com
+</ru-RU>
+
+
+================================================================================
+                    BELGE SONU
+================================================================================

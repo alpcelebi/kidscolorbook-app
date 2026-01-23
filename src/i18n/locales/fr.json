@@ -198,7 +198,16 @@
     "fries": "Frites",
     "cherry": "Cerise",
     "grapes": "Raisins",
-    "pineapple": "Ananas"
+    "pineapple": "Ananas",
+    "dragon": "Dragon",
+    "unicorn": "Licorne",
+    "wizard": "Sorcier",
+    "fairy": "Fée",
+    "knight": "Chevalier",
+    "princess": "Princesse",
+    "elf": "Elfe",
+    "phoenix": "Phénix",
+    "castle_fantasy": "Château Fantastique"
   },
   "category": {
     "pages": "{{count}} pages",

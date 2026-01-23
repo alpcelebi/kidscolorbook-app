@@ -123,10 +123,17 @@ const pages: PageSeed[] = [
   { id: 'page-burger', categoryId: 'cat-food', nameKey: 'pages.hamburger', svgPath: 'food/burger' },
   { id: 'page-donut', categoryId: 'cat-food', nameKey: 'pages.donut', svgPath: 'food/donut' },
 
-  // ============ FANTASY (3 pages - COMPLETED) ============
+  // ============ FANTASY (10 pages - COMPLETED) ============
   { id: 'page-dragon', categoryId: 'cat-fantasy', nameKey: 'pages.dragon', svgPath: 'fantasy/dragon' },
   { id: 'page-unicorn', categoryId: 'cat-fantasy', nameKey: 'pages.unicorn', svgPath: 'fantasy/unicorn' },
   { id: 'page-mermaid', categoryId: 'cat-fantasy', nameKey: 'pages.mermaid', svgPath: 'fantasy/mermaid' },
+  { id: 'page-wizard', categoryId: 'cat-fantasy', nameKey: 'pages.wizard', svgPath: 'fantasy/wizard' },
+  { id: 'page-fairy', categoryId: 'cat-fantasy', nameKey: 'pages.fairy', svgPath: 'fantasy/fairy' },
+  { id: 'page-knight', categoryId: 'cat-fantasy', nameKey: 'pages.knight', svgPath: 'fantasy/knight' },
+  { id: 'page-princess', categoryId: 'cat-fantasy', nameKey: 'pages.princess', svgPath: 'fantasy/princess' },
+  { id: 'page-elf', categoryId: 'cat-fantasy', nameKey: 'pages.elf', svgPath: 'fantasy/elf' },
+  { id: 'page-phoenix', categoryId: 'cat-fantasy', nameKey: 'pages.phoenix', svgPath: 'fantasy/phoenix' },
+  { id: 'page-castle-fantasy', categoryId: 'cat-fantasy', nameKey: 'pages.castle_fantasy', svgPath: 'fantasy/castle_fantasy' },
 
   // ============ SPACE (6 pages - COMPLETED) ============
   { id: 'page-sun-space', categoryId: 'cat-space', nameKey: 'pages.sun', svgPath: 'space/sun' },

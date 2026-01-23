@@ -1,0 +1,404 @@
+================================================================================
+      GOOGLE PLAY CONSOLE - KAPALI TEST YÜKLEME REHBERİ
+                    KidsColorBook: Paint & Draw
+================================================================================
+
+Son Güncelleme: 9 Ocak 2026
+
+Bu belge Google Play Console kapalı test yüklemesi için gerekli tüm bilgileri
+içerir. Doğrudan kopyalayıp konsola yapıştırabilirsiniz.
+
+================================================================================
+                         UYGULAMA BİLGİLERİ
+================================================================================
+
+UYGULAMA ADI (maksimum 30 karakter):
+KidsColorBook: Paint & Draw
+
+PAKET ADI:
+com.kidscolorbook.app
+
+VARSAYILAN DİL:
+İngilizce (Amerika Birleşik Devletleri) - en-US
+
+================================================================================
+                         MAĞAZA LİSTELEMESİ
+================================================================================
+
+KISA AÇIKLAMA (maksimum 80 karakter):
+------------------------------------------------------------------------
+Fun coloring book for kids! 80+ coloring pages, free drawing & parental controls
+------------------------------------------------------------------------
+
+TAM AÇIKLAMA (maksimum 4000 karakter):
+------------------------------------------------------------------------
+🎨 KidsColorBook: Paint & Draw - The Ultimate Coloring App for Kids!
+
+Unleash your child's creativity! KidsColorBook is a free digital coloring book designed for children ages 2-8.
+
+✨ FEATURES:
+
+🖌️ 80+ Coloring Pages
+• Animals: Cat, dog, lion, elephant and more
+• Dinosaurs: T-Rex, Stegosaurus, Brontosaurus
+• Vehicles: Car, airplane, train, rocket
+• Nature: Trees, flowers, rainbow
+• Sea Life: Fish, dolphin, jellyfish
+• Space: Planets, astronauts, rockets
+• Food: Fruits, sweets, pizza
+
+🎨 Free Drawing Mode
+• Let your imagination run wild
+• Various brush sizes
+• Vibrant color palette
+• Undo/redo support
+
+📱 Kid-Friendly Interface
+• Easy to use for children
+• Touch-to-color support
+• No complicated menus
+
+🖼️ Art Gallery
+• Save your artworks
+• Share on social media
+• Mark your favorites
+
+👨‍👩‍👧 Parental Controls
+• Usage time tracking
+• Daily limit settings
+• Break reminders
+• Sleep time lock
+
+🌍 Multi-Language Support
+• English
+• Turkish
+• German
+• French
+• Spanish
+• Russian
+
+⭐ WHY KIDSCOLORBOOK?
+✓ Completely free
+✓ Kid-safe advertisements
+✓ Works offline - no internet needed
+✓ Regular content updates
+✓ Educational and fun
+✓ COPPA compliant
+
+Download now and start your child's artistic journey! 🌈
+
+We value your feedback! Contact us at alpcelebi33@gmail.com
+------------------------------------------------------------------------
+
+================================================================================
+                           GRAFİKLER
+================================================================================
+
+UYGULAMA İKONU:
+- Dosya: assets/google-play-assets/icon_512x512.png
+- Boyut: 512 x 512 piksel
+- Format: PNG (alfa kanallı 32-bit)
+
+ÖZELLİK GRAFİĞİ (Feature Graphic):
+- Dosya: assets/google-play-assets/feature_graphic_1024x500.png
+- Boyut: 1024 x 500 piksel
+- Format: PNG veya JPG
+
+EKRAN GÖRÜNTÜLERİ (minimum 2, maksimum 8):
+- Dosya konumu: assets/google-play-assets/
+- screenshot_1_home.png - Kategorili ana ekran
+- screenshot_2_coloring.png - Boyama sayfası kullanımda
+- screenshot_3_animals.png - Hayvanlar kategorisi görünümü
+- screenshot_4_freedraw.png - Serbest çizim modu
+- screenshot_5_gallery.png - Sanat galerisi görünümü
+- Boyut: 16:9 veya 9:16 en-boy oranı olmalı
+- Minimum: 320px, Maksimum: 3840px
+
+================================================================================
+                      UYGULAMA KATEGORİZASYONU
+================================================================================
+
+UYGULAMA TÜRÜ:
+Uygulama
+
+KATEGORİ:
+Oyunlar (Games)
+
+ALT KATEGORİ:
+Eğitici (Educational)
+
+ETİKETLER (5'e kadar):
+1. Coloring (Boyama)
+2. Kids (Çocuklar)
+3. Drawing (Çizim)
+4. Educational (Eğitici)
+5. Art (Sanat)
+
+================================================================================
+                       İLETİŞİM BİLGİLERİ
+================================================================================
+
+GELİŞTİRİCİ ADI:
+[Geliştirici/şirket adınızı girin]
+
+E-POSTA ADRESİ:
+alpcelebi33@gmail.com
+
+TELEFON NUMARASI (isteğe bağlı):
+[Varsa girin]
+
+WEB SİTESİ:
+https://alpcelebi.github.io/kidscolorbook-app/
+
+GİZLİLİK POLİTİKASI URL'Sİ (ZORUNLU):
+https://alpcelebi.github.io/kidscolorbook-app/privacy-policy.html
+
+================================================================================
+                      İÇERİK DERECELENDİRMESİ
+================================================================================
+
+Şuraya gidin: Politika > Uygulama içeriği > İçerik derecelendirmesi
+
+ANKET YANITLARI:
+
+1. Bu uygulama şiddet içeriyor mu?
+   → Hayır
+
+2. Bu uygulama cinsel içerik içeriyor mu?
+   → Hayır
+
+3. Bu uygulama küfür veya kaba mizah içeriyor mu?
+   → Hayır
+
+4. Bu uygulama uyuşturucu referansları içeriyor mu?
+   → Hayır
+
+5. Bu uygulama kullanıcıların birbirleriyle etkileşime girmesine izin veriyor mu?
+   → Hayır
+
+6. Bu uygulama kullanıcıların kişisel bilgilerini paylaşmasına izin veriyor mu?
+   → Hayır
+
+7. Bu uygulama kullanıcıların dijital ürün satın almasına izin veriyor mu?
+   → Hayır
+
+8. Bu uygulama reklam içeriyor mu?
+   → Evet (çocuklara uygun, COPPA uyumlu)
+
+BEKLENEN DERECELENDİRME: PEGI 3 / Herkes için
+
+================================================================================
+                    HEDEF KİTLE VE İÇERİK
+================================================================================
+
+Şuraya gidin: Politika > Uygulama içeriği > Hedef kitle ve içerik
+
+HEDEF YAŞ GRUPLARI (uygun olanları seçin):
+☑ 5 yaş altı
+☑ 6-8
+☐ 9-12
+☐ 13-15
+☐ 16-17
+☐ 18+
+
+UYGULAMANIZ ÇOCUKLARA HİTAP EDİYOR MU?
+→ Evet
+
+UYGULAMANIZ ÇOCUKLAR İÇİN Mİ TASARLANDI?
+→ Evet
+
+UYGULAMANIZ REKLAM İÇERİYOR MU?
+→ Evet
+
+TÜM REKLAMLAR ÇOCUKLARA UYGUN MU?
+→ Evet
+
+KULLANILAN REKLAM SDK'SI:
+→ Google AdMob (COPPA uyumlu mod etkin)
+
+================================================================================
+                    AİLELER POLİTİKASI (AİLELER İÇİN TASARLANDI)
+================================================================================
+
+Şuraya gidin: Politika > Uygulama içeriği > Aileler politikası
+
+AİLELER İÇİN TASARLANDI PROGRAMINA KAYIT OL?
+→ Evet
+
+AİLELER İÇİN KATEGORİ:
+→ Eğitici Oyunlar
+
+KARMA KİTLE Mİ YOKSA SADECE ÇOCUKLAR MI?
+→ Sadece çocuklar (13 yaş altı)
+
+UYGULAMANIZ REKLAMLAR İÇİN KONUM HEDEFLEMESİ KULLANIYOR MU?
+→ Hayır
+
+UYGULAMANIZ ÇOCUKLARDAN KİŞİSEL BİLGİ TOPLUYOR MU?
+→ Hayır
+
+UYGULAMANIZ ÜÇÜNCÜ TARAFLARLA VERİ PAYLAŞIYOR MU?
+→ Hayır (sadece COPPA uyumlu reklam sunumu)
+
+================================================================================
+                        VERİ GÜVENLİĞİ
+================================================================================
+
+Şuraya gidin: Politika > Uygulama içeriği > Veri güvenliği
+
+UYGULAMANIZ KULLANICI VERİSİ TOPLUYOR VEYA PAYLAŞIYOR MU?
+→ Evet (sınırlı - sadece reklam)
+
+TOPLANAN VERİ TÜRLERİ:
+
+1. Cihaz veya diğer tanımlayıcılar
+   - Toplanan: Evet (AdMob tarafından reklam sunumu için)
+   - Paylaşılan: Hayır
+   - Amaç: Reklam
+   - Kullanıcı silme talep edebilir: Uygulanamaz (uygulama tarafından saklanmaz)
+
+GÜVENLİK UYGULAMALARI:
+☑ Veriler aktarım sırasında şifrelenir
+☑ Veriler silinebilir (kullanıcı uygulama verilerini temizleyebilir)
+
+UYGULAMANIZ ÇOCUKLAR İÇİN Mİ TASARLANDI?
+→ Evet
+
+UYGULAMANIZ AİLELER POLİTİKASINA UYUYOR MU?
+→ Evet
+
+================================================================================
+                    REKLAM BEYANI
+================================================================================
+
+KULLANILAN REKLAM AĞLARI:
+- Google AdMob
+
+REKLAM FORMATI:
+- Banner reklamlar (ekranın altında)
+- Tam ekran (interstitial) reklamlar (oturumlar arasında, sınırlı sıklık)
+
+COPPA UYUMLULUĞU:
+- Tüm reklamlar COPPA uyumludur
+- Çocuklara yönelik işleme etkin
+- Davranışsal reklam yok
+- Yeniden pazarlama yok
+- İçerik derecelendirmesi: G (Genel İzleyici)
+
+================================================================================
+                      KAPALI TEST KURULUMU
+================================================================================
+
+1. TEST LİSTESİ OLUŞTUR:
+   - Şuraya gidin: Sürüm > Test > Kapalı test
+   - Yeni rota oluşturun veya mevcut olanı kullanın
+   - E-posta ile test kullanıcıları ekleyin veya Google Grubu oluşturun
+
+2. EKLENECEK TEST E-POSTALARI:
+   [Test e-posta adreslerinizi buraya ekleyin]
+   - alpcelebi33@gmail.com
+   - tester1@gmail.com
+   - tester2@gmail.com
+
+3. AAB/APK YÜKLE:
+   - Dosya: android/app/build/outputs/apk/release/app-release.apk
+   - Veya AAB oluşturun: ./gradlew bundleRelease
+
+4. SÜRÜM ADI:
+   v2.0.0 - İlk Sürüm
+
+5. SÜRÜM NOTLARI:
+------------------------------------------------------------------------
+v2.0.0'daki Yenilikler:
+
+🎨 İlk Sürüm!
+• 8 kategoride 80+ boyama sayfası
+• Çeşitli fırçalarla serbest çizim modu
+• Eserlerinizi kaydetmek için sanat galerisi
+• Ebeveyn kontrolleri ve kullanım takibi
+• 6 dil desteği
+• Çocuklara uygun reklamlar
+• Tamamen çevrimdışı çalışır
+------------------------------------------------------------------------
+
+================================================================================
+                    TEST KONTROL LİSTESİ
+================================================================================
+
+Kapalı teste göndermeden önce doğrulayın:
+
+☐ APK/AAB başarıyla yüklendi
+☐ Uygulama adı ve açıklaması tamamlandı
+☐ Tüm ekran görüntüleri yüklendi (min 2)
+☐ Özellik grafiği yüklendi
+☐ Uygulama ikonu yüklendi
+☐ Gizlilik politikası URL'si geçerli ve erişilebilir
+☐ İçerik derecelendirmesi anketi tamamlandı
+☐ Hedef kitle seçildi
+☐ Veri güvenliği formu tamamlandı
+☐ Aileler politikası kaydı (uygulanabilirse)
+☐ Test kullanıcıları kapalı test rotasına eklendi
+☐ Sürüm notları yazıldı
+
+================================================================================
+                      İNCELEME SÜRESİ
+================================================================================
+
+Kapalı Test İncelemesi: Genellikle 1-3 gün
+Onaydan sonra: Test kullanıcıları davet e-postası alır
+Onaydan sonra katılım URL'si oluşturulur
+
+================================================================================
+                         NOTLAR
+================================================================================
+
+- Test aşamasında test Reklam ID'lerini kullanmaya devam edin
+- Üretime geçmeden önce gerçek Reklam ID'leriyle değiştirin
+- Play Console'da çökme raporlarını izleyin
+- Test kullanıcı geri bildirimlerine hızlı yanıt verin
+- Ön başlatma raporu içgörülerini değerlendirin
+
+================================================================================
+                    ADIM ADIM YÜKLEME
+================================================================================
+
+ADIM 1: Google Play Console'a Giriş
+- https://play.google.com/console adresine gidin
+- Google hesabınızla giriş yapın
+
+ADIM 2: Yeni Uygulama Oluştur
+- "Uygulama oluştur" butonuna tıklayın
+- Uygulama adı: KidsColorBook: Paint & Draw
+- Varsayılan dil: İngilizce
+- Uygulama mı oyun mu: Oyun
+- Ücretsiz mi ücretli mi: Ücretsiz
+- Beyanları kabul edin
+
+ADIM 3: Mağaza Ayarları
+- Sol menü > Mağaza varlığı > Ana mağaza listeleme
+- Kısa açıklama girin
+- Tam açıklama girin
+- Uygulama ikonunu yükleyin
+- Özellik grafiğini yükleyin
+- Ekran görüntülerini yükleyin
+
+ADIM 4: Uygulama İçeriği
+- Sol menü > Politika > Uygulama içeriği
+- Gizlilik politikası URL'sini girin
+- İçerik derecelendirmesi anketini doldurun
+- Hedef kitle ve içerik bölümünü doldurun
+- Veri güvenliği formunu doldurun
+- Aileler politikasını doldurun (çocuk uygulaması için)
+
+ADIM 5: Kapalı Test Rotası
+- Sol menü > Sürüm > Test > Kapalı test
+- "Rota oluştur" veya mevcut rotayı seçin
+- Test kullanıcılarını ekleyin
+- Yeni sürüm oluştur
+- APK/AAB dosyasını yükleyin
+- Sürüm notlarını yazın
+- "İncelemeye gönder" butonuna tıklayın
+
+================================================================================
+                    BELGE SONU
+================================================================================

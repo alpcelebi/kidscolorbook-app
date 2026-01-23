@@ -14,6 +14,8 @@ import type { RootStackParamList } from './types';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
+import { ParentalControlsManager } from '../features/parental-controls/components/ParentalControlsManager';
+
 export function RootNavigator() {
   return (
     <NavigationContainer>
@@ -48,6 +50,7 @@ export function RootNavigator() {
         <Stack.Screen name="ParentDashboard" component={ParentDashboardScreen} />
         <Stack.Screen name="Achievements" component={AchievementsScreen} />
       </Stack.Navigator>
+      <ParentalControlsManager />
     </NavigationContainer>
   );
 }

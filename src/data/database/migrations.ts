@@ -431,7 +431,31 @@ export const migrations: Migration[] = [
       }
     },
   },
+  {
+    version: 5,
+    up: async (db: SQLiteDatabase) => {
+      const now = Date.now();
+
+      // Add new Fantasy pages
+      const newFantasyPages = [
+        { id: 'page-wizard', categoryId: 'cat-fantasy', nameKey: 'pages.wizard', svgPath: 'fantasy/wizard' },
+        { id: 'page-fairy', categoryId: 'cat-fantasy', nameKey: 'pages.fairy', svgPath: 'fantasy/fairy' },
+        { id: 'page-knight', categoryId: 'cat-fantasy', nameKey: 'pages.knight', svgPath: 'fantasy/knight' },
+        { id: 'page-princess', categoryId: 'cat-fantasy', nameKey: 'pages.princess', svgPath: 'fantasy/princess' },
+        { id: 'page-elf', categoryId: 'cat-fantasy', nameKey: 'pages.elf', svgPath: 'fantasy/elf' },
+        { id: 'page-phoenix', categoryId: 'cat-fantasy', nameKey: 'pages.phoenix', svgPath: 'fantasy/phoenix' },
+        { id: 'page-castle-fantasy', categoryId: 'cat-fantasy', nameKey: 'pages.castle_fantasy', svgPath: 'fantasy/castle_fantasy' },
+      ];
+
+      for (const page of newFantasyPages) {
+        await db.runAsync(
+          `INSERT OR IGNORE INTO pages (id, category_id, name_key, svg_path, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?)`,
+          [page.id, page.categoryId, page.nameKey, page.svgPath, now, now]
+        );
+      }
+    },
+  },
 ];
 
-export const CURRENT_DB_VERSION = 4;
+export const CURRENT_DB_VERSION = 5;
 

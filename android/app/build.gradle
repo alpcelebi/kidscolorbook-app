@@ -134,11 +134,6 @@ android.externalNativeBuild.cmake.buildStagingDirectory = file("C:/tmp/cmake-bui
     androidResources {
         ignoreAssetsPattern '!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~'
     }
-    // Windows file lock sorunu için lint ayarları
-    lint {
-        checkReleaseBuilds false
-        abortOnError false
-    }
 }
 
 // Apply static values from `gradle.properties` to the `android.packagingOptions`

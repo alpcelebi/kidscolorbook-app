@@ -3,7 +3,7 @@ import { useDrawingStore } from '../store/drawingStore';
 import type { Point } from '../../../domain/entities/DrawingPath';
 
 // Minimum distance between points (in pixels) - throttling
-const MIN_POINT_DISTANCE = 3;
+const MIN_POINT_DISTANCE = 7;
 
 // Calculate distance between two points
 const getDistance = (p1: Point, p2: Point): number => {

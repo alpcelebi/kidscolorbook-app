@@ -46,6 +46,7 @@ interface DrawingStoreState {
   paths: DrawingPath[];
   currentPathIndex: number;
   currentPath: DrawingPath | null;
+  pendingPoints: Point[]; // Buffer for batching points
 
   // Tool state
   selectedColor: string;
@@ -88,6 +89,7 @@ export const useDrawingStore = create<DrawingStoreState>((set, get) => ({
   paths: [],
   currentPathIndex: -1,
   currentPath: null,
+  pendingPoints: [],
   selectedColor: DEFAULT_COLORS[0],
   brushSize: 'medium',
   currentTool: 'brush',
@@ -131,40 +133,72 @@ export const useDrawingStore = create<DrawingStoreState>((set, get) => ({
   },
 
   addPoint: (point: Point) => {
-    const { currentPath, currentTool } = get();
+    const { currentPath, currentTool, pendingPoints } = get();
     if (!currentPath || currentTool === 'fill') return;
 
-    set({
-      currentPath: {
-        ...currentPath,
-        points: [...currentPath.points, point],
-      },
-    });
+    // Distance threshold - skip points that are too close (performance optimization)
+    const lastPoint = currentPath.points[currentPath.points.length - 1] || pendingPoints[pendingPoints.length - 1];
+    if (lastPoint) {
+      const dx = point.x - lastPoint.x;
+      const dy = point.y - lastPoint.y;
+      const distance = Math.sqrt(dx * dx + dy * dy);
+      if (distance < 2) return; // Skip if less than 2 pixels apart
+    }
+
+    // Add to pending buffer
+    const newPending = [...pendingPoints, point];
+
+    // Batch update: flush every 4 points for smoother performance
+    if (newPending.length >= 4) {
+      set({
+        currentPath: {
+          ...currentPath,
+          points: [...currentPath.points, ...newPending],
+        },
+        pendingPoints: [],
+      });
+    } else {
+      set({ pendingPoints: newPending });
+    }
   },
 
   endPath: () => {
-    const { currentPath, paths, currentPathIndex, currentTool } = get();
-    if (!currentPath || currentPath.points.length < 2 || currentTool === 'fill') {
-      set({ currentPath: null });
+    const { currentPath, paths, currentPathIndex, currentTool, pendingPoints } = get();
+    if (!currentPath || currentTool === 'fill') {
+      set({ currentPath: null, pendingPoints: [] });
       return;
     }
 
+    // Flush any pending points
+    const finalPoints = [...currentPath.points, ...pendingPoints];
+    if (finalPoints.length < 2) {
+      set({ currentPath: null, pendingPoints: [] });
+      return;
+    }
+
+    const finalPath = { ...currentPath, points: finalPoints };
+
     // Remove any paths after currentPathIndex (for redo history)
-    const newPaths = [...paths.slice(0, currentPathIndex + 1), currentPath];
+    const newPaths = [...paths.slice(0, currentPathIndex + 1), finalPath];
     const newIndex = newPaths.length - 1;
 
     set({
       paths: newPaths,
       currentPathIndex: newIndex,
       currentPath: null,
+      pendingPoints: [],
     });
   },
 
   fill: (point: Point) => {
-    const { selectedColor, paths, currentPathIndex } = get();
-    
+    const { selectedColor, paths, currentPathIndex, brushSize } = get();
+
+    // Create use dynamic size based on brush size: small=20, medium=60, large=120
+    const baseSize = BRUSH_SIZES[brushSize];
+    const fillSize = baseSize * 5;
+
     // Create a fill stroke at the tap location
-    const fillPath = createFillStroke(point.x, point.y, selectedColor, 60);
+    const fillPath = createFillStroke(point.x, point.y, selectedColor, fillSize);
 
     // Add to paths
     const newPaths = [...paths.slice(0, currentPathIndex + 1), fillPath];

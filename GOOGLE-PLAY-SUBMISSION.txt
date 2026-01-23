@@ -1,0 +1,364 @@
+================================================================================
+      GOOGLE PLAY CONSOLE - CLOSED TESTING SUBMISSION GUIDE
+                    KidsColorBook: Paint & Draw
+================================================================================
+
+Last Updated: January 9, 2026
+
+This document contains all required information for Google Play Console
+closed testing submission. Copy and paste directly into the console.
+
+================================================================================
+                         APP INFORMATION
+================================================================================
+
+APP NAME (max 30 characters):
+KidsColorBook: Paint & Draw
+
+PACKAGE NAME:
+com.kidscolorbook.app
+
+DEFAULT LANGUAGE:
+English (United States) - en-US
+
+================================================================================
+                         STORE LISTING
+================================================================================
+
+SHORT DESCRIPTION (max 80 characters):
+------------------------------------------------------------------------
+Fun coloring book for kids! 80+ coloring pages, free drawing & parental controls
+------------------------------------------------------------------------
+
+FULL DESCRIPTION (max 4000 characters):
+------------------------------------------------------------------------
+🎨 KidsColorBook: Paint & Draw - The Ultimate Coloring App for Kids!
+
+Unleash your child's creativity! KidsColorBook is a free digital coloring book designed for children ages 2-8.
+
+✨ FEATURES:
+
+🖌️ 80+ Coloring Pages
+• Animals: Cat, dog, lion, elephant and more
+• Dinosaurs: T-Rex, Stegosaurus, Brontosaurus
+• Vehicles: Car, airplane, train, rocket
+• Nature: Trees, flowers, rainbow
+• Sea Life: Fish, dolphin, jellyfish
+• Space: Planets, astronauts, rockets
+• Food: Fruits, sweets, pizza
+
+🎨 Free Drawing Mode
+• Let your imagination run wild
+• Various brush sizes
+• Vibrant color palette
+• Undo/redo support
+
+📱 Kid-Friendly Interface
+• Easy to use for children
+• Touch-to-color support
+• No complicated menus
+
+🖼️ Art Gallery
+• Save your artworks
+• Share on social media
+• Mark your favorites
+
+👨‍👩‍👧 Parental Controls
+• Usage time tracking
+• Daily limit settings
+• Break reminders
+• Sleep time lock
+
+🌍 Multi-Language Support
+• English
+• Turkish
+• German
+• French
+• Spanish
+• Russian
+
+⭐ WHY KIDSCOLORBOOK?
+✓ Completely free
+✓ Kid-safe advertisements
+✓ Works offline - no internet needed
+✓ Regular content updates
+✓ Educational and fun
+✓ COPPA compliant
+
+Download now and start your child's artistic journey! 🌈
+
+We value your feedback! Contact us at alpcelebi33@gmail.com
+------------------------------------------------------------------------
+
+================================================================================
+                           GRAPHICS
+================================================================================
+
+APP ICON:
+- File: assets/google-play-assets/icon_512x512.png
+- Size: 512 x 512 pixels
+- Format: PNG (32-bit with alpha)
+
+FEATURE GRAPHIC:
+- File: assets/google-play-assets/feature_graphic_1024x500.png
+- Size: 1024 x 500 pixels
+- Format: PNG or JPG
+
+SCREENSHOTS (minimum 2, maximum 8):
+- File location: assets/google-play-assets/
+- screenshot_1_home.png - Home screen with categories
+- screenshot_2_coloring.png - Coloring page in action
+- screenshot_3_animals.png - Animals category view
+- screenshot_4_freedraw.png - Free drawing mode
+- screenshot_5_gallery.png - Art gallery view
+- Size: Should be 16:9 or 9:16 aspect ratio
+- Minimum: 320px, Maximum: 3840px
+
+================================================================================
+                      APP CATEGORIZATION
+================================================================================
+
+APPLICATION TYPE:
+App
+
+CATEGORY:
+Games
+
+SUBCATEGORY:
+Educational
+
+TAGS (up to 5):
+1. Coloring
+2. Kids
+3. Drawing
+4. Educational
+5. Art
+
+================================================================================
+                       CONTACT DETAILS
+================================================================================
+
+DEVELOPER NAME:
+[Enter your developer/company name]
+
+EMAIL ADDRESS:
+alpcelebi33@gmail.com
+
+PHONE NUMBER (optional):
+[Enter if available]
+
+WEBSITE:
+https://alpcelebi.github.io/kidscolorbook-app/
+
+PRIVACY POLICY URL (REQUIRED):
+https://alpcelebi.github.io/kidscolorbook-app/privacy-policy.html
+
+================================================================================
+                      CONTENT RATING
+================================================================================
+
+Go to: Policy > App content > Content rating
+
+QUESTIONNAIRE ANSWERS:
+
+1. Does this app contain violence?
+   → No
+
+2. Does this app contain sexual content?
+   → No
+
+3. Does this app contain profanity or crude humor?
+   → No
+
+4. Does this app contain drug references?
+   → No
+
+5. Does this app allow users to interact with each other?
+   → No
+
+6. Does this app allow users to share personal information?
+   → No
+
+7. Does this app allow users to purchase digital goods?
+   → No
+
+8. Does this app contain advertisements?
+   → Yes (kid-safe, COPPA compliant)
+
+EXPECTED RATING: PEGI 3 / Everyone
+
+================================================================================
+                    TARGET AUDIENCE & CONTENT
+================================================================================
+
+Go to: Policy > App content > Target audience and content
+
+TARGET AGE GROUPS (select all that apply):
+☑ Under 5
+☑ 6-8
+☐ 9-12
+☐ 13-15
+☐ 16-17
+☐ 18+
+
+DOES YOUR APP APPEAL TO CHILDREN?
+→ Yes
+
+IS YOUR APP DESIGNED FOR CHILDREN?
+→ Yes
+
+DOES YOUR APP CONTAIN ADS?
+→ Yes
+
+ARE ALL ADS APPROPRIATE FOR CHILDREN?
+→ Yes
+
+AD SDK USED:
+→ Google AdMob (COPPA compliant mode enabled)
+
+================================================================================
+                    FAMILIES POLICY (DESIGNED FOR FAMILIES)
+================================================================================
+
+Go to: Policy > App content > Families policy
+
+ENROLL IN DESIGNED FOR FAMILIES PROGRAM?
+→ Yes
+
+CATEGORY FOR FAMILIES:
+→ Educational Games
+
+MIXED AUDIENCE OR CHILDREN ONLY?
+→ Children only (under 13)
+
+DOES YOUR APP USE LOCATION TARGETING FOR ADS?
+→ No
+
+DOES YOUR APP COLLECT ANY PERSONAL INFORMATION FROM CHILDREN?
+→ No
+
+DOES YOUR APP SHARE DATA WITH THIRD PARTIES?
+→ No (only COPPA-compliant ad serving)
+
+================================================================================
+                        DATA SAFETY
+================================================================================
+
+Go to: Policy > App content > Data safety
+
+DOES YOUR APP COLLECT OR SHARE USER DATA?
+→ Yes (limited - advertising only)
+
+DATA TYPES COLLECTED:
+
+1. Device or other identifiers
+   - Collected: Yes (by AdMob for ad serving)
+   - Shared: No
+   - Purpose: Advertising
+   - User can request deletion: N/A (not stored by app)
+
+SECURITY PRACTICES:
+☑ Data is encrypted in transit
+☑ Data can be deleted (user can clear app data)
+
+IS YOUR APP DESIGNED FOR CHILDREN?
+→ Yes
+
+DOES YOUR APP FOLLOW FAMILIES POLICY?
+→ Yes
+
+================================================================================
+                    ADVERTISING DECLARATION
+================================================================================
+
+AD NETWORKS USED:
+- Google AdMob
+
+AD FORMAT:
+- Banner ads (bottom of screen)
+- Interstitial ads (between sessions, limited frequency)
+
+COPPA COMPLIANCE:
+- All ads are COPPA compliant
+- Child-directed treatment enabled
+- No behavioral advertising
+- No remarketing
+- Content rating: G (General Audience)
+
+================================================================================
+                      CLOSED TESTING SETUP
+================================================================================
+
+1. CREATE TESTER LIST:
+   - Go to: Release > Testing > Closed testing
+   - Create new track or use existing
+   - Add testers by email or create Google Group
+
+2. TESTER EMAILS TO ADD:
+   [Add your test email addresses here]
+   - youremail@gmail.com
+   - tester1@gmail.com
+   - tester2@gmail.com
+
+3. UPLOAD AAB/APK:
+   - File: android/app/build/outputs/apk/release/app-release.apk
+   - Or generate AAB: ./gradlew bundleRelease
+
+4. RELEASE NAME:
+   v2.0.0 - Initial Release
+
+5. RELEASE NOTES:
+------------------------------------------------------------------------
+What's New in v2.0.0:
+
+🎨 Initial Release!
+• 80+ coloring pages across 8 categories
+• Free drawing mode with various brushes
+• Art gallery to save your creations
+• Parental controls and usage tracking
+• Support for 6 languages
+• Kid-safe advertisements
+• Works completely offline
+------------------------------------------------------------------------
+
+================================================================================
+                    TESTING CHECKLIST
+================================================================================
+
+Before submitting to closed testing, verify:
+
+☐ APK/AAB uploaded successfully
+☐ App name and description complete
+☐ All screenshots uploaded (min 2)
+☐ Feature graphic uploaded
+☐ App icon uploaded
+☐ Privacy policy URL valid and accessible
+☐ Content rating questionnaire completed
+☐ Target audience selected
+☐ Data safety form completed
+☐ Families policy enrollment (if applicable)
+☐ Testers added to closed testing track
+☐ Release notes written
+
+================================================================================
+                      REVIEW TIMELINE
+================================================================================
+
+Closed Testing Review: Usually 1-3 days
+After approval: Testers receive invite email
+Opt-in URL will be generated after approval
+
+================================================================================
+                         NOTES
+================================================================================
+
+- Keep test Ad IDs during testing phase
+- Replace with production Ad IDs before production release
+- Monitor crash reports in Play Console
+- Respond to tester feedback promptly
+- Consider pre-launch report insights
+
+================================================================================
+                    END OF DOCUMENT
+================================================================================
+ 

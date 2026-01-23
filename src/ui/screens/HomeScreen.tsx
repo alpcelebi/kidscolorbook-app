@@ -17,6 +17,7 @@ import { CategoryCard, BannerAd } from '../components';
 import { CategoriesRepository } from '../../data/repositories/CategoriesRepository';
 import { useParentalGate } from '../../features/parental-gate/hooks/useParentalGate';
 import { ParentalGateModal } from '../components/ParentalGate/ParentalGateModal';
+import { useParentalControlsStore } from '../../features/parental-controls/store/parentalControlsStore';
 import type { CategoryWithPages } from '../../domain/entities/Category';
 import type { RootStackParamList } from '../../navigation/types';
 
@@ -28,6 +29,15 @@ export function HomeScreen() {
   const [categories, setCategories] = useState<CategoryWithPages[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
+  const { remainingTime, controls } = useParentalControlsStore();
+
+  const formatTime = (seconds: number) => {
+    const mins = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+    return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+  };
+
+  const hasLimit = controls?.dailyLimitMinutes && controls.dailyLimitMinutes > 0;
 
   const parentalGate = useParentalGate({
     onSuccess: () => {
@@ -82,7 +92,17 @@ export function HomeScreen() {
       >
         {/* Header */}
         <View style={styles.header}>
-          <Text style={styles.title}>{t('home.title')}</Text>
+          <View>
+            <Text style={styles.title}>{t('home.title')}</Text>
+            {hasLimit && remainingTime !== null && (
+              <View style={styles.timerBadge}>
+                <Text style={styles.timerIcon}>⏱️</Text>
+                <Text style={styles.timerText}>
+                  {t('parentDashboard.timeRemaining')}: {formatTime(remainingTime)}
+                </Text>
+              </View>
+            )}
+          </View>
           <TouchableOpacity style={styles.settingsButton} onPress={handleSettingsPress}>
             <Text style={styles.settingsIcon}>⚙️</Text>
           </TouchableOpacity>
@@ -212,6 +232,25 @@ const styles = StyleSheet.create({
     fontWeight: typography.fontWeightBold,
     color: colors.text,
     marginBottom: spacing.md,
+  },
+  timerBadge: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: spacing.xs,
+    backgroundColor: '#FFE0E0', // Light red background to indicate limit
+    paddingVertical: 4,
+    paddingHorizontal: 8,
+    borderRadius: 8,
+    alignSelf: 'flex-start',
+  },
+  timerIcon: {
+    fontSize: 12,
+    marginRight: 4,
+  },
+  timerText: {
+    fontSize: 12,
+    color: '#D32F2F', // Dark red text
+    fontWeight: 'bold',
   },
 });
 

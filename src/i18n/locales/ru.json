@@ -198,7 +198,16 @@
     "fries": "Картофель Фри",
     "cherry": "Вишня",
     "grapes": "Виноград",
-    "pineapple": "Ананас"
+    "pineapple": "Ананас",
+    "dragon": "Дракон",
+    "unicorn": "Единорог",
+    "wizard": "Волшебник",
+    "fairy": "Фея",
+    "knight": "Рыцарь",
+    "princess": "Принцесса",
+    "elf": "Эльф",
+    "phoenix": "Феникс",
+    "castle_fantasy": "Фантастический Замок"
   },
   "category": {
     "pages": "{{count}} страниц",

@@ -78,8 +78,16 @@ export const SkiaCanvas = forwardRef<SkiaCanvasRef, SkiaCanvasProps>(
       .maxPointers(1)
       .runOnJS(true);
 
-    // Convert DrawingPath to Skia Path
+    // Convert DrawingPath to Skia Path - with memoization
+    const pathCacheRef = useRef<Map<string, SkPath>>(new Map());
+
     const createSkiaPath = useCallback((drawingPath: DrawingPath): SkPath => {
+      // Check cache first
+      const cached = pathCacheRef.current.get(drawingPath.id);
+      if (cached && drawingPath.id !== currentPath?.id) {
+        return cached;
+      }
+
       const path = Skia.Path.Make();
       const svgString = pathToSvgString(drawingPath);
       if (svgString) {
@@ -88,11 +96,30 @@ export const SkiaCanvas = forwardRef<SkiaCanvasRef, SkiaCanvasProps>(
           path.addPath(parsedPath);
         }
       }
-      return path;
-    }, []);
 
-    // Render all paths
-    const allPaths = currentPath ? [...paths, currentPath] : paths;
+      // Cache completed paths (not current path as it's still being drawn)
+      if (drawingPath.id !== currentPath?.id) {
+        pathCacheRef.current.set(drawingPath.id, path);
+      }
+
+      return path;
+    }, [currentPath?.id]);
+
+    // Clean up cache when paths change significantly
+    const pathIds = paths.map(p => p.id).join(',');
+    React.useEffect(() => {
+      const validIds = new Set(paths.map(p => p.id));
+      pathCacheRef.current.forEach((_, id) => {
+        if (!validIds.has(id)) {
+          pathCacheRef.current.delete(id);
+        }
+      });
+    }, [pathIds]);
+
+    // Render all paths - memoized
+    const allPaths = React.useMemo(() => {
+      return currentPath ? [...paths, currentPath] : paths;
+    }, [paths, currentPath]);
 
     return (
       <View style={styles.container} onLayout={handleLayout}>

@@ -198,7 +198,16 @@
     "fries": "French Fries",
     "cherry": "Cherry",
     "grapes": "Grapes",
-    "pineapple": "Pineapple"
+    "pineapple": "Pineapple",
+    "dragon": "Dragon",
+    "unicorn": "Unicorn",
+    "wizard": "Wizard",
+    "fairy": "Fairy",
+    "knight": "Knight",
+    "princess": "Princess",
+    "elf": "Elf",
+    "phoenix": "Phoenix",
+    "castle_fantasy": "Fantasy Castle"
   },
   "category": {
     "pages": "{{count}} pages",
@@ -308,6 +317,8 @@
   },
   "parentDashboard": {
     "title": "Parent Dashboard",
+    "timeRemaining": "Remaining Time",
+    "noTimeLimit": "No Time Limit",
     "usageStats": "Usage Statistics",
     "todayUsage": "Today",
     "weekUsage": "This Week",

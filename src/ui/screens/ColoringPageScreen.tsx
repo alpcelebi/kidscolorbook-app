@@ -206,12 +206,30 @@ export function ColoringPageScreen() {
   }, [drawing.paths]);
 
   const currentPathSkia = useMemo(() => {
-    if (!drawing.currentPath) return null;
-    const svgString = pathToSvgString(drawing.currentPath);
-    if (!svgString) return null;
-    const skiaPath = Skia.Path.MakeFromSVGString(svgString);
-    if (!skiaPath) return null;
-    return { path: skiaPath, drawingPath: drawing.currentPath };
+    if (!drawing.currentPath || drawing.currentPath.points.length === 0) return null;
+
+    // Optimize: Construct path directly instead of via SVG string for performance
+    const path = Skia.Path.Make();
+    const points = drawing.currentPath.points;
+
+    path.moveTo(points[0].x, points[0].y);
+
+    // Use simple lineTo for performance during drawing
+    for (let i = 1; i < points.length; i++) {
+      const p1 = points[i - 1];
+      const p2 = points[i];
+      const midPoint = { x: (p1.x + p2.x) / 2, y: (p1.y + p2.y) / 2 };
+
+      // Quadratic bezier for smoothness
+      path.quadTo(p1.x, p1.y, midPoint.x, midPoint.y);
+    }
+    // Connect to last point
+    if (points.length > 1) {
+      const last = points[points.length - 1];
+      path.lineTo(last.x, last.y);
+    }
+
+    return { path, drawingPath: drawing.currentPath };
   }, [drawing.currentPath]);
 
   return (

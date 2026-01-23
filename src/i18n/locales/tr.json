@@ -198,7 +198,16 @@
     "fries": "Patates Kızartması",
     "cherry": "Kiraz",
     "grapes": "Üzüm",
-    "pineapple": "Ananas"
+    "pineapple": "Ananas",
+    "dragon": "Ejderha",
+    "unicorn": "Tek Boynuzlu At",
+    "wizard": "Büyücü",
+    "fairy": "Peri",
+    "knight": "Şövalye",
+    "princess": "Prenses",
+    "elf": "Elf",
+    "phoenix": "Anka Kuşu",
+    "castle_fantasy": "Fantastik Kale"
   },
   "category": {
     "pages": "{{count}} sayfa",
@@ -308,6 +317,8 @@
   },
   "parentDashboard": {
     "title": "Ebeveyn Paneli",
+    "timeRemaining": "Kalan Süre",
+    "noTimeLimit": "Süre Sınırı Yok",
     "usageStats": "Kullanım İstatistikleri",
     "todayUsage": "Bugün",
     "weekUsage": "Bu Hafta",

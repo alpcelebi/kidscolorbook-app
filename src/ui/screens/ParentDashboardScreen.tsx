@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   View,
   Text,
@@ -6,6 +6,8 @@ import {
   ScrollView,
   TouchableOpacity,
   Switch,
+  TextInput,
+  Keyboard,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useTranslation } from 'react-i18next';
@@ -36,12 +38,29 @@ export function ParentDashboardScreen() {
     updateBreakReminder,
     updateSleepTime,
     updateSoundsEnabled,
+    setParentMode,
   } = useParentalControlsStore();
+
+  useEffect(() => {
+    // Cleanup on unmount (leaving dashboard)
+    return () => setParentMode(false);
+  }, []);
 
   useEffect(() => {
     loadControls();
     loadStats();
   }, []);
+
+  const [customTime, setCustomTime] = useState('');
+
+  const handleSaveCustomTime = () => {
+    const minutes = parseInt(customTime, 10);
+    if (!isNaN(minutes) && minutes > 0) {
+      updateDailyLimit(minutes);
+      setCustomTime('');
+      Keyboard.dismiss();
+    }
+  };
 
   const handleBackPress = () => {
     navigation.goBack();
@@ -194,6 +213,21 @@ export function ParentDashboardScreen() {
                   </Text>
                 </TouchableOpacity>
               ))}
+            </View>
+
+            {/* Custom Time Input */}
+            <View style={styles.customTimeRow}>
+              <TextInput
+                style={styles.timeInput}
+                placeholder="Özel Süre (dk)"
+                keyboardType="number-pad"
+                value={customTime}
+                onChangeText={setCustomTime}
+                maxLength={4}
+              />
+              <TouchableOpacity style={styles.okButton} onPress={handleSaveCustomTime}>
+                <Text style={styles.okButtonText}>OK</Text>
+              </TouchableOpacity>
             </View>
           </View>
 
@@ -495,6 +529,39 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
+  },
+  customTimeRow: {
+    flexDirection: 'row',
+    marginTop: spacing.sm,
+    gap: spacing.sm,
+    alignItems: 'center',
+    paddingTop: spacing.xs,
+    borderTopWidth: 1,
+    borderTopColor: colors.border,
+  },
+  timeInput: {
+    flex: 1,
+    height: 40,
+    backgroundColor: colors.backgroundLight,
+    paddingHorizontal: spacing.sm,
+    borderRadius: spacing.radiusSmall,
+    fontSize: typography.fontSizeSm,
+    color: colors.text,
+    borderWidth: 1,
+    borderColor: colors.border,
+  },
+  okButton: {
+    backgroundColor: colors.primary,
+    height: 40,
+    paddingHorizontal: spacing.md,
+    borderRadius: spacing.radiusSmall,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  okButtonText: {
+    color: colors.textOnPrimary,
+    fontWeight: typography.fontWeightBold,
+    fontSize: typography.fontSizeSm,
   },
 });
 

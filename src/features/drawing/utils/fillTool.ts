@@ -118,7 +118,7 @@ export function createFillStroke(
   const points: Point[] = [];
   const spiralTurns = 3;
   const pointsPerTurn = 20;
-  
+
   for (let i = 0; i <= spiralTurns * pointsPerTurn; i++) {
     const angle = (i / pointsPerTurn) * Math.PI * 2;
     const radius = (i / (spiralTurns * pointsPerTurn)) * size;

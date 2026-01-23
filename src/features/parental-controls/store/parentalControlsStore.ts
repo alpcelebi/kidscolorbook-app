@@ -38,8 +38,10 @@ interface ParentalControlsState {
   remainingTime: number | null;
   currentSessionId: string | null;
   sessionStartTime: number | null;
+  isParentMode: boolean;
 
   // Actions
+  setParentMode: (enabled: boolean) => void;
   loadControls: () => Promise<void>;
   loadStats: () => Promise<void>;
   updateDailyLimit: (minutes: number | null) => Promise<void>;
@@ -65,6 +67,18 @@ export const useParentalControlsStore = create<ParentalControlsState>((set, get)
   remainingTime: null,
   currentSessionId: null,
   sessionStartTime: null,
+  isParentMode: false,
+
+  setParentMode: (enabled: boolean) => {
+    set({ isParentMode: enabled });
+    // If enabling parent mode, unlock immediately
+    if (enabled) {
+      set({ isLocked: false });
+    } else {
+      // If disabling, re-check lock status immediately
+      get().checkLockStatus();
+    }
+  },
 
   loadControls: async () => {
     set({ isLoading: true, error: null });
@@ -185,8 +199,21 @@ export const useParentalControlsStore = create<ParentalControlsState>((set, get)
 
   checkLockStatus: async () => {
     try {
+      const { isParentMode } = get();
+      if (isParentMode) {
+        set({ isLocked: false });
+        return;
+      }
+
       const todayStats = await UsageStatsRepository.getTodayStats();
-      const todayUsageSeconds = todayStats?.totalTimeSeconds ?? 0;
+      let todayUsageSeconds = todayStats?.totalTimeSeconds ?? 0;
+
+      // Add current session duration if active
+      const { sessionStartTime } = get();
+      if (sessionStartTime) {
+        const currentSessionSeconds = Math.floor((Date.now() - sessionStartTime) / 1000);
+        todayUsageSeconds += currentSessionSeconds;
+      }
 
       const status = await ParentalControlsRepository.checkLockStatus(todayUsageSeconds);
       const remainingTime = await ParentalControlsRepository.getRemainingTime(todayUsageSeconds);
