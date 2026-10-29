@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="KidsColorBook: Paint & Draw. App Store ve Google Play.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="KidsColorBook: Paint & Draw">
+  <meta property="og:description" content="App Store ve Google Play">
+  <meta property="og:image" content="https://alpcelebi.github.io/kidscolorbook-app/icon.png">
+  <meta property="og:url" content="https://alpcelebi.github.io/kidscolorbook-app/download.html">
+  <link rel="icon" href="icon.png">
+  <title>KidsColorBook - App Store &amp; Google Play</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100svh; background: #fff; color: #19292d;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { width: min(100% - 40px, 480px); margin: 0 auto; padding: 64px 0 32px; text-align: center; }
+    .icon { width: 112px; height: 112px; object-fit: contain; }
+    h1 { font-size: 32px; line-height: 1.2; margin: 24px 0 10px; overflow-wrap: anywhere; }
+    .subtitle { color: #526568; margin: 0 0 32px; font-size: 18px; }
+    .stores { display: grid; gap: 14px; }
+    .store { display: flex; min-height: 72px; align-items: center; justify-content: space-between;
+      padding: 16px 20px; border-radius: 8px; background: #1b272b; color: #fff; text-decoration: none;
+      text-align: left; gap: 12px; }
+    .store.google { background: #075f46; }
+    .store strong { display: block; font-size: 21px; }
+    .store small { display: block; margin-top: 4px; font-size: 14px; opacity: .88; }
+    .store span { font-size: 28px; flex-shrink: 0; }
+    a:focus-visible { outline: 3px solid #1678d2; outline-offset: 4px; }
+    .store:hover { opacity: .9; }
+    footer { margin-top: 36px; font-size: 14px; color: #526568; }
+    footer a { color: inherit; text-underline-offset: 4px; }
+    @media (max-height: 600px) { main { padding-top: 24px; } .icon { width: 80px; height: 80px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="icon" src="icon.png" width="112" height="112" alt="KidsColorBook">
+    <h1>KidsColorBook</h1>
+    <p class="subtitle">Paint &amp; Draw</p>
+    <nav class="stores" aria-label="Uygulama magazalari">
+      <a class="store" id="apple" href="https://apps.apple.com/tr/app/kidscolorbook-paint-draw/id6766518084?l=tr">
+        <div><strong>App Store</strong><small>iPhone &amp; iPad</small></div><span aria-hidden="true">&rarr;</span>
+      </a>
+      <a class="store google" id="google" href="https://play.google.com/store/apps/details?id=com.kidscolorbook.app">
+        <div><strong>Google Play</strong><small>Android</small></div><span aria-hidden="true">&rarr;</span>
+      </a>
+    </nav>
+    <footer><a href="privacy-policy.html">Gizlilik politikas&#305;</a> &middot; Alperen Codes</footer>
+  </main>
+  <script>
+    function storeForDevice(userAgent, platform, touchPoints) {
+      if (/android/i.test(userAgent)) return 'google';
+      if (/iPhone|iPad|iPod/i.test(userAgent) ||
+          (platform === 'MacIntel' && touchPoints > 1)) return 'apple';
+      return null;
+    }
+    var store = storeForDevice(navigator.userAgent, navigator.platform, navigator.maxTouchPoints || 0);
+    if (store && new URLSearchParams(location.search).get('choose') !== '1') {
+      location.replace(document.getElementById(store).href);
+    }
+  </script>
+</body>
+</html>
